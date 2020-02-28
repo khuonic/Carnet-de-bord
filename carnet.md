@@ -7,7 +7,7 @@ Semaine du 24 Février :
 	-> Création du groupe de travail avec benjamin, marion et william.
 	-> Brainstorming pour rassembler les idées sur le site, mise en place d'une maquette sur moqup, création de la base de données avec symfony et doctrine, mise en place du projet sur GitHub.
 	-> Création de quelques produits et ajout dans la base de donnés des produits crées.
-	Plusieurs étapes doivent etre respectés, 
+	Plusieurs étapes doivent être respectées : -ajout des catégories, des sous catégories, du prix de chaque produit, ajout du produit, ajout de l'article, ajout de l'image
 
 
 
@@ -23,6 +23,6 @@ Semaine du 24 Février :
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQwODkyMywyMDUyNDA0Njg5LDIxMz
-I3OTYxMDMsLTY2NzkwNTUxMSw4MDIzMzgwMjddfQ==
+eyJoaXN0b3J5IjpbLTEzMDIzMTE2NzQsMjA1MjQwNDY4OSwyMT
+MyNzk2MTAzLC02Njc5MDU1MTEsODAyMzM4MDI3XX0=
 -->
