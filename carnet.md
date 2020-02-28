@@ -6,7 +6,7 @@ Semaine du 24 Février :
 	-> Mise en place de Symfony sur nos VM, visionnage de plusieurs tutoriels symfony sur les controllers, les entités et twig.
 	-> Création du groupe de travail avec benjamin, marion et william.
 	-> Brainstorming pour rassembler les idées sur le site, mise en place d'une maquette sur moqup, création de la base de données avec symfony et doctrine, mise en place du projet sur GitHub.
-	->
+	-> Création de que
 
 
 
@@ -22,6 +22,6 @@ Semaine du 24 Février :
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4MTYxODYxLDIwNTI0MDQ2ODksMjEzMj
-c5NjEwMywtNjY3OTA1NTExLDgwMjMzODAyN119
+eyJoaXN0b3J5IjpbLTk5ODk0MTc0OCwyMDUyNDA0Njg5LDIxMz
+I3OTYxMDMsLTY2NzkwNTUxMSw4MDIzMzgwMjddfQ==
 -->
