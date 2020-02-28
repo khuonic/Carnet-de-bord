@@ -9,6 +9,7 @@ Semaine du 24 Février :
 	-> Création de quelques produits et ajout dans la base de donnés des produits crées.
 	Plusieurs étapes doivent être respectées : -ajout des catégories, des sous catégories, du prix de chaque produit, ajout du produit avec son price id et category id, ajout de l'article avec son product_id , ajout de l'image et son article_id
 	-> Création d'une migration avec les insertions en base de données
+	-> modification de la table product et création d'une nouvelle table permettant d'avoir 		plusieurs catégories pour un produit.
 
 
 
@@ -24,7 +25,7 @@ Semaine du 24 Février :
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzg0NDgzNywtMTA4ODg1OTc5NCwtMT
-MwMjMxMTY3NCwyMDUyNDA0Njg5LDIxMzI3OTYxMDMsLTY2Nzkw
-NTUxMSw4MDIzMzgwMjddfQ==
+eyJoaXN0b3J5IjpbLTYzNTIzODIwNCwxODA3ODQ0ODM3LC0xMD
+g4ODU5Nzk0LC0xMzAyMzExNjc0LDIwNTI0MDQ2ODksMjEzMjc5
+NjEwMywtNjY3OTA1NTExLDgwMjMzODAyN119
 -->
