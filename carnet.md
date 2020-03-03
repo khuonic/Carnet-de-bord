@@ -11,8 +11,9 @@ Semaine du 24 Février :
 	-> Création d'une migration avec les insertions en base de données
 	-> modification de la table product et création d'une nouvelle table permettant d'avoir 	plusieurs catégories pour un produit.
 	-> Création du controller product et de sa vue, création globale de la vue et ajout des fonctionnalités petit à petit via symfony.
+Injection de dépendance pour appeler la classe product, afin de pouvoir appeler la classe article, price et articleImage et de pouvoir les afficher dans la vue.
 	-> Création de la homepage avec la navbar de catégories, création de slideshow avec comme contenu les derniers produits ajoutés en base de données.
-	-> Création d'un service symfony(contenant le 
+	-> Création d'un service symfony(contenant la fonction permettant d'appeler les catégories pour le header).
 
 
 
@@ -27,7 +28,7 @@ Semaine du 24 Février :
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg1NzU1NDIsLTE5MzA1MDQzNTYsMT
+eyJoaXN0b3J5IjpbLTE2NjM4MTE5MTIsLTE5MzA1MDQzNTYsMT
 gwNzg0NDgzNywtMTA4ODg1OTc5NCwtMTMwMjMxMTY3NCwyMDUy
 NDA0Njg5LDIxMzI3OTYxMDMsLTY2NzkwNTUxMSw4MDIzMzgwMj
 ddfQ==
