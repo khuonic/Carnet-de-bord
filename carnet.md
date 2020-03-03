@@ -10,7 +10,9 @@ Semaine du 24 Février :
 	Plusieurs étapes doivent être respectées : -ajout des catégories, des sous catégories, du prix de chaque produit, ajout du produit avec son price id et category id, ajout de l'article avec son product_id , ajout de l'image et son article_id
 	-> Création d'une migration avec les insertions en base de données
 	-> modification de la table product et création d'une nouvelle table permettant d'avoir 	plusieurs catégories pour un produit.
-
+	-> Création du controller product et de sa vue, création globale de la vue et ajout des fonctionnalités petit à petit via symfony.
+	-> Création de la homepage avec la navbar de catégories, création de slideshow avec comme contenu les derniers produits ajoutés en base de données.
+	-> Création d'un service symfony(contenant le 
 
 
 
@@ -25,7 +27,8 @@ Semaine du 24 Février :
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzA1MDQzNTYsMTgwNzg0NDgzNywtMT
-A4ODg1OTc5NCwtMTMwMjMxMTY3NCwyMDUyNDA0Njg5LDIxMzI3
-OTYxMDMsLTY2NzkwNTUxMSw4MDIzMzgwMjddfQ==
+eyJoaXN0b3J5IjpbLTE3NTg1NzU1NDIsLTE5MzA1MDQzNTYsMT
+gwNzg0NDgzNywtMTA4ODg1OTc5NCwtMTMwMjMxMTY3NCwyMDUy
+NDA0Njg5LDIxMzI3OTYxMDMsLTY2NzkwNTUxMSw4MDIzMzgwMj
+ddfQ==
 -->
