@@ -15,7 +15,8 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 	-> Création de la homepage avec la navbar de catégories, création de slideshow avec comme contenu les derniers produits ajoutés en base de données.
 	-> Création d'un service symfony(contenant la fonction permettant d'appeler les catégories pour le header).
 	-> Mise en place du changement d'image de manière dynamique sur la page produit, réflexion sur la possibilité d'implémenter de l'ajax sur les select de la page produit, afin de rendre la page la plus dynamique possible.
-	-> Débug du yarn encore watch, afin de pouvoir build en continu, injection d'un
+	-> Débug du yarn encore watch, afin de pouvoir build en continu, injection d'une option poll dans le fichier webpack config.js de symfony, commande  a utiiser dorénavant => yarn encore dev --wath --watch--poll.
+	-> Mise en place du menu de sous-catégorie en hover, et des pages catégories avec lien pour les sous-catégories sur chaque page.
 
 
 
@@ -30,8 +31,8 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5MzQzODUxLC0xNjYzODExOTEyLC0xOT
-MwNTA0MzU2LDE4MDc4NDQ4MzcsLTEwODg4NTk3OTQsLTEzMDIz
-MTE2NzQsMjA1MjQwNDY4OSwyMTMyNzk2MTAzLC02Njc5MDU1MT
-EsODAyMzM4MDI3XX0=
+eyJoaXN0b3J5IjpbMjA4Mzg4MDU4MywtMTY2MzgxMTkxMiwtMT
+kzMDUwNDM1NiwxODA3ODQ0ODM3LC0xMDg4ODU5Nzk0LC0xMzAy
+MzExNjc0LDIwNTI0MDQ2ODksMjEzMjc5NjEwMywtNjY3OTA1NT
+ExLDgwMjMzODAyN119
 -->
