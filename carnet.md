@@ -17,6 +17,7 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 	-> Mise en place du changement d'image de manière dynamique sur la page produit, réflexion sur la possibilité d'implémenter de l'ajax sur les select de la page produit, afin de rendre la page la plus dynamique possible.
 	-> Débug du yarn encore watch, afin de pouvoir build en continu, injection d'une option poll dans le fichier webpack config.js de symfony, commande  a utiiser dorénavant => yarn encore dev --wath --watch--poll.
 	-> Mise en place du menu de sous-catégorie en hover, et des pages catégories avec lien pour les sous-catégories sur chaque page.
+	
 
 
 
@@ -31,8 +32,8 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4Mzg4MDU4MywtMTY2MzgxMTkxMiwtMT
-kzMDUwNDM1NiwxODA3ODQ0ODM3LC0xMDg4ODU5Nzk0LC0xMzAy
-MzExNjc0LDIwNTI0MDQ2ODksMjEzMjc5NjEwMywtNjY3OTA1NT
-ExLDgwMjMzODAyN119
+eyJoaXN0b3J5IjpbMjkwNDY5ODA5LDIwODM4ODA1ODMsLTE2Nj
+M4MTE5MTIsLTE5MzA1MDQzNTYsMTgwNzg0NDgzNywtMTA4ODg1
+OTc5NCwtMTMwMjMxMTY3NCwyMDUyNDA0Njg5LDIxMzI3OTYxMD
+MsLTY2NzkwNTUxMSw4MDIzMzgwMjddfQ==
 -->
