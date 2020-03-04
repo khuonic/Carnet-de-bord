@@ -14,6 +14,8 @@ Semaine du 24 Février :
 Injection de dépendance pour appeler la classe product, afin de pouvoir appeler la classe article, price et articleImage et de pouvoir les afficher dans la vue.
 	-> Création de la homepage avec la navbar de catégories, création de slideshow avec comme contenu les derniers produits ajoutés en base de données.
 	-> Création d'un service symfony(contenant la fonction permettant d'appeler les catégories pour le header).
+	-> Mise en place du changement d'image de manière dynamique sur la page produit, réflexion sur la possibilité d'implémenter de l'ajax sur les select de la page produit, afin de rendre la page la plus dynamique possible.
+	-> Débug du yarn encore watch, afin de pouvoir build en continu, injection d'un
 
 
 
@@ -28,8 +30,8 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM4MTE5MTIsLTE5MzA1MDQzNTYsMT
-gwNzg0NDgzNywtMTA4ODg1OTc5NCwtMTMwMjMxMTY3NCwyMDUy
-NDA0Njg5LDIxMzI3OTYxMDMsLTY2NzkwNTUxMSw4MDIzMzgwMj
-ddfQ==
+eyJoaXN0b3J5IjpbNDU5MzQzODUxLC0xNjYzODExOTEyLC0xOT
+MwNTA0MzU2LDE4MDc4NDQ4MzcsLTEwODg4NTk3OTQsLTEzMDIz
+MTE2NzQsMjA1MjQwNDY4OSwyMTMyNzk2MTAzLC02Njc5MDU1MT
+EsODAyMzM4MDI3XX0=
 -->
