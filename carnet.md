@@ -22,7 +22,7 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 	-> Générer des soumissions de form sans refresh de la page, avec des soucis sur le .submit (preventDefault ne marchait pas comme on le souhaitait). Remplacement du onsubmit par un onchange sur les select.
 	-> Problème sur la requete ajax, requete symfony vide, pour régler le problème on a utiliser URLSearchParameters (voir doc JS).
 	-> Concrètement, il est désormais possible de récupérer l'Id de l'article selon les différents critères de taille, device et color, et on génère un message selon le stock restant, ainsi que l'affiche du bouton d'ajout au panier.
-	-> Modification de la bdd, création du tag_category relia
+	-> Modification de la bdd, création du tag_category reliant les tag aux catégories, création de la table cart (remplaçant orders_artices) permettant d'intégrer la quantité d'articles choisis dans le panier.
 	-> Création du chemin vers les pages catégories, et affichage de celles-ci via la base de données. 
 	Mise en place d'un renquirement pour le chemin de la page.
 
@@ -39,9 +39,9 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzMwNTQyMSwxNDQyNzQ5NjMzLDI5MD
-Q2OTgwOSwyMDgzODgwNTgzLC0xNjYzODExOTEyLC0xOTMwNTA0
-MzU2LDE4MDc4NDQ4MzcsLTEwODg4NTk3OTQsLTEzMDIzMTE2Nz
-QsMjA1MjQwNDY4OSwyMTMyNzk2MTAzLC02Njc5MDU1MTEsODAy
-MzM4MDI3XX0=
+eyJoaXN0b3J5IjpbNzA4MTk0NTgsMTQ0Mjc0OTYzMywyOTA0Nj
+k4MDksMjA4Mzg4MDU4MywtMTY2MzgxMTkxMiwtMTkzMDUwNDM1
+NiwxODA3ODQ0ODM3LC0xMDg4ODU5Nzk0LC0xMzAyMzExNjc0LD
+IwNTI0MDQ2ODksMjEzMjc5NjEwMywtNjY3OTA1NTExLDgwMjMz
+ODAyN119
 -->
