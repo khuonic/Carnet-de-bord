@@ -19,7 +19,9 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 	-> Débug du yarn encore watch, afin de pouvoir build en continu, injection d'une option poll dans le fichier webpack config.js de symfony, commande  a utiliser dorénavant => yarn encore dev --wath --watch--poll.
 	-> Mise en place du menu de sous-catégorie en hover, et des pages catégories avec lien pour les sous-catégories sur chaque page.
 	-> Création du Controller et vue d'authentification
-	-> Générer des soumissions de form sans refresh de la page, avec des soucis sur le .submit (preventDefault ne marchait pas comme on le souhaitait). Remplacement du on
+	-> Générer des soumissions de form sans refresh de la page, avec des soucis sur le .submit (preventDefault ne marchait pas comme on le souhaitait). Remplacement du onsubmit par un onchange sur les select.
+	-> Problème sur la requete ajax, requete symfony vide, pour régler le problème on a utiliser URLSearchParameters (voir doc JS).
+	-> Concrètement
 
 
 
@@ -34,7 +36,7 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODg4Mjg2NSwxNDQyNzQ5NjMzLDI5MD
+eyJoaXN0b3J5IjpbMTI2NDU3ODAyMiwxNDQyNzQ5NjMzLDI5MD
 Q2OTgwOSwyMDgzODgwNTgzLC0xNjYzODExOTEyLC0xOTMwNTA0
 MzU2LDE4MDc4NDQ4MzcsLTEwODg4NTk3OTQsLTEzMDIzMTE2Nz
 QsMjA1MjQwNDY4OSwyMTMyNzk2MTAzLC02Njc5MDU1MTEsODAy
