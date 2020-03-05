@@ -18,10 +18,11 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 	-> Mise en place du changement d'image de manière dynamique sur la page produit, réflexion sur la possibilité d'implémenter de l'ajax sur les select de la page produit, afin de rendre la page la plus dynamique possible.
 	-> Débug du yarn encore watch, afin de pouvoir build en continu, injection d'une option poll dans le fichier webpack config.js de symfony, commande  a utiliser dorénavant => yarn encore dev --wath --watch--poll.
 	-> Mise en place du menu de sous-catégorie en hover, et des pages catégories avec lien pour les sous-catégories sur chaque page.
-	-> Création du Controller et vue d'authentification
+	-> Création du Controller et vue d'authentification, avec le script permettant de se conn
 	-> Générer des soumissions de form sans refresh de la page, avec des soucis sur le .submit (preventDefault ne marchait pas comme on le souhaitait). Remplacement du onsubmit par un onchange sur les select.
 	-> Problème sur la requete ajax, requete symfony vide, pour régler le problème on a utiliser URLSearchParameters (voir doc JS).
-	-> Concrètement
+	-> Concrètement, il est désormais possible de récupérer l'Id de l'article selon les différents critères de taille, device et color, et on génère un message selon le stock restant, ainsi que l'affiche du bouton d'ajout au panier.
+	-> Création du chemin vers les pages catégories
 
 
 
@@ -36,9 +37,9 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDU3ODAyMiwxNDQyNzQ5NjMzLDI5MD
-Q2OTgwOSwyMDgzODgwNTgzLC0xNjYzODExOTEyLC0xOTMwNTA0
-MzU2LDE4MDc4NDQ4MzcsLTEwODg4NTk3OTQsLTEzMDIzMTE2Nz
-QsMjA1MjQwNDY4OSwyMTMyNzk2MTAzLC02Njc5MDU1MTEsODAy
-MzM4MDI3XX0=
+eyJoaXN0b3J5IjpbLTEwMzcyMzg0OTAsMTQ0Mjc0OTYzMywyOT
+A0Njk4MDksMjA4Mzg4MDU4MywtMTY2MzgxMTkxMiwtMTkzMDUw
+NDM1NiwxODA3ODQ0ODM3LC0xMDg4ODU5Nzk0LC0xMzAyMzExNj
+c0LDIwNTI0MDQ2ODksMjEzMjc5NjEwMywtNjY3OTA1NTExLDgw
+MjMzODAyN119
 -->
