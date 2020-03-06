@@ -26,8 +26,8 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 	-> Création du chemin vers les pages catégories, et affichage de celles-ci via la base de données. 
 	Mise en place d'un renquirement pour le chemin de la page.
 	-> Ajout de toast dynamique lors de l'ajout au panier, avec récupération des informations en ajax de l'article ajouté (titre image, taille device, couleur, quantité).
-	-> Ajout d'image dans la table catégorie, pour les sous catégories, création des pages sous catégorie, pour le moment vide, et lien vers ces pages.
-	-> Slider permettant de récupérer les 9 derniers articles créés (via une fonction réutilisable
+	-> Ajout d'images dans la table catégorie pour chaque sous catégorie, pour les sous catégories, création des pages sous catégorie, pour le moment vide, et lien vers ces pages.
+	->Création du  Slider permettant de récupérer les 9 derniers articles créés (via une fonction réutilisable) pour l'afficher en homepage.
 
 
 
@@ -41,9 +41,9 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3MjYzNDQ4LDcwODE5NDU4LDE0NDI3ND
-k2MzMsMjkwNDY5ODA5LDIwODM4ODA1ODMsLTE2NjM4MTE5MTIs
-LTE5MzA1MDQzNTYsMTgwNzg0NDgzNywtMTA4ODg1OTc5NCwtMT
-MwMjMxMTY3NCwyMDUyNDA0Njg5LDIxMzI3OTYxMDMsLTY2Nzkw
-NTUxMSw4MDIzMzgwMjddfQ==
+eyJoaXN0b3J5IjpbLTE3NTc5Mjc3MTIsNzA4MTk0NTgsMTQ0Mj
+c0OTYzMywyOTA0Njk4MDksMjA4Mzg4MDU4MywtMTY2MzgxMTkx
+MiwtMTkzMDUwNDM1NiwxODA3ODQ0ODM3LC0xMDg4ODU5Nzk0LC
+0xMzAyMzExNjc0LDIwNTI0MDQ2ODksMjEzMjc5NjEwMywtNjY3
+OTA1NTExLDgwMjMzODAyN119
 -->
