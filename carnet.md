@@ -25,7 +25,7 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 	-> Modification de la bdd, création du tag_category reliant les tag aux catégories, création de la table cart (remplaçant orders_artices) permettant d'intégrer la quantité d'articles choisis dans le panier.
 	-> Création du chemin vers les pages catégories, et affichage de celles-ci via la base de données. 
 	Mise en place d'un renquirement pour le chemin de la page.
-	-> Ajout de toast dynamique lors de l'ajout au panier, avec récupération des informations en ajax de l'article ajouté (titre image, taille device, couleur, quantité).
+	->Création du controller cart et d'une méthode permettant l' Ajout de toast dynamique lors de l'ajout au panier, avec récupération des informations en ajax de l'article ajouté (titre image, taille device, couleur, quantité). 
 	-> Ajout d'images dans la table catégorie pour chaque sous catégorie, pour les sous catégories, création des pages sous catégorie, pour le moment vide, et lien vers ces pages.
 	->Création du  Slider permettant de récupérer les 9 derniers articles créés (via une fonction réutilisable) pour l'afficher en homepage.
 
@@ -41,9 +41,9 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTc5Mjc3MTIsNzA4MTk0NTgsMTQ0Mj
-c0OTYzMywyOTA0Njk4MDksMjA4Mzg4MDU4MywtMTY2MzgxMTkx
-MiwtMTkzMDUwNDM1NiwxODA3ODQ0ODM3LC0xMDg4ODU5Nzk0LC
-0xMzAyMzExNjc0LDIwNTI0MDQ2ODksMjEzMjc5NjEwMywtNjY3
-OTA1NTExLDgwMjMzODAyN119
+eyJoaXN0b3J5IjpbMTk2NzIzMzAwNyw3MDgxOTQ1OCwxNDQyNz
+Q5NjMzLDI5MDQ2OTgwOSwyMDgzODgwNTgzLC0xNjYzODExOTEy
+LC0xOTMwNTA0MzU2LDE4MDc4NDQ4MzcsLTEwODg4NTk3OTQsLT
+EzMDIzMTE2NzQsMjA1MjQwNDY4OSwyMTMyNzk2MTAzLC02Njc5
+MDU1MTEsODAyMzM4MDI3XX0=
 -->
