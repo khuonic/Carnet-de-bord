@@ -28,6 +28,9 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 	->Création du controller cart et d'une méthode permettant l' Ajout de toast dynamique lors de l'ajout au panier, avec récupération des informations en ajax de l'article ajouté (titre image, taille device, couleur, quantité). 
 	-> Ajout d'images dans la table catégorie pour chaque sous catégorie, pour les sous catégories, création des pages sous catégorie, pour le moment vide, et lien vers ces pages.
 	->Création du  Slider permettant de récupérer les 9 derniers articles créés (via une fonction réutilisable) pour l'afficher en homepage.
+->Création du formulaire d'authentification, via les formulaires symfony.
+-> Mise en place du bundle easyadmin qui permet de générer rapidement une interface admin cohérente et fonctionnelle.
+-> Création de la page du panier
 
 
 
@@ -41,9 +44,9 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NzIzMzAwNyw3MDgxOTQ1OCwxNDQyNz
-Q5NjMzLDI5MDQ2OTgwOSwyMDgzODgwNTgzLC0xNjYzODExOTEy
-LC0xOTMwNTA0MzU2LDE4MDc4NDQ4MzcsLTEwODg4NTk3OTQsLT
-EzMDIzMTE2NzQsMjA1MjQwNDY4OSwyMTMyNzk2MTAzLC02Njc5
-MDU1MTEsODAyMzM4MDI3XX0=
+eyJoaXN0b3J5IjpbLTEzMDYwNzk4OTAsMTk2NzIzMzAwNyw3MD
+gxOTQ1OCwxNDQyNzQ5NjMzLDI5MDQ2OTgwOSwyMDgzODgwNTgz
+LC0xNjYzODExOTEyLC0xOTMwNTA0MzU2LDE4MDc4NDQ4MzcsLT
+EwODg4NTk3OTQsLTEzMDIzMTE2NzQsMjA1MjQwNDY4OSwyMTMy
+Nzk2MTAzLC02Njc5MDU1MTEsODAyMzM4MDI3XX0=
 -->
