@@ -30,6 +30,7 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 	->Création du  Slider permettant de récupérer les 9 derniers articles créés (via une fonction réutilisable) pour l'afficher en homepage.
 ->Création du formulaire d'authentification, via les formulaires symfony.
 -> Mise en place du bundle easyadmin qui permet de générer rapidement une interface admin cohérente et fonctionnelle.
+Semaine du 09/03
 -> Création de la page du panier 
 -> Finition du champ de recherche via les tags, avec autocomplétion
 -> Création de la page sous-catégories avec les filtres associés
@@ -45,10 +46,10 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyOTA1NjAwLC0xMzA2MDc5ODkwLDE5Nj
-cyMzMwMDcsNzA4MTk0NTgsMTQ0Mjc0OTYzMywyOTA0Njk4MDks
-MjA4Mzg4MDU4MywtMTY2MzgxMTkxMiwtMTkzMDUwNDM1NiwxOD
-A3ODQ0ODM3LC0xMDg4ODU5Nzk0LC0xMzAyMzExNjc0LDIwNTI0
-MDQ2ODksMjEzMjc5NjEwMywtNjY3OTA1NTExLDgwMjMzODAyN1
-19
+eyJoaXN0b3J5IjpbMTk1OTU0ODgxOCwtMTMwNjA3OTg5MCwxOT
+Y3MjMzMDA3LDcwODE5NDU4LDE0NDI3NDk2MzMsMjkwNDY5ODA5
+LDIwODM4ODA1ODMsLTE2NjM4MTE5MTIsLTE5MzA1MDQzNTYsMT
+gwNzg0NDgzNywtMTA4ODg1OTc5NCwtMTMwMjMxMTY3NCwyMDUy
+NDA0Njg5LDIxMzI3OTYxMDMsLTY2NzkwNTUxMSw4MDIzMzgwMj
+ddfQ==
 -->
