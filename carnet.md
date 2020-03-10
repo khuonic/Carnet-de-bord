@@ -31,7 +31,7 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 ->Création du formulaire d'authentification, via les formulaires symfony.
 -> Mise en place du bundle easyadmin qui permet de générer rapidement une interface admin cohérente et fonctionnelle.
 **Semaine du 09/03 :**
--> Création de la page du panier et des éléments associés ()
+-> Création de la page du panier et des éléments associés (). 
 -> Finition du champ de recherche des sous catégories via les tags, avec autocomplétion des tags de la base de données
 -> Création de la page sous-catégories avec les filtres associés
 
@@ -46,10 +46,10 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTk3MTAzMTIsLTEzMDYwNzk4OTAsMT
-k2NzIzMzAwNyw3MDgxOTQ1OCwxNDQyNzQ5NjMzLDI5MDQ2OTgw
-OSwyMDgzODgwNTgzLC0xNjYzODExOTEyLC0xOTMwNTA0MzU2LD
-E4MDc4NDQ4MzcsLTEwODg4NTk3OTQsLTEzMDIzMTE2NzQsMjA1
-MjQwNDY4OSwyMTMyNzk2MTAzLC02Njc5MDU1MTEsODAyMzM4MD
-I3XX0=
+eyJoaXN0b3J5IjpbMTI5MTM0MTMyMiwtMTc1OTcxMDMxMiwtMT
+MwNjA3OTg5MCwxOTY3MjMzMDA3LDcwODE5NDU4LDE0NDI3NDk2
+MzMsMjkwNDY5ODA5LDIwODM4ODA1ODMsLTE2NjM4MTE5MTIsLT
+E5MzA1MDQzNTYsMTgwNzg0NDgzNywtMTA4ODg1OTc5NCwtMTMw
+MjMxMTY3NCwyMDUyNDA0Njg5LDIxMzI3OTYxMDMsLTY2NzkwNT
+UxMSw4MDIzMzgwMjddfQ==
 -->
