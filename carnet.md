@@ -34,6 +34,9 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 -> Création de la page du panier et des éléments associés (). 
 -> Finition du champ de recherche des sous catégories via les tags, avec autocomplétion des tags de la base de données
 -> Création de la page sous-catégories avec les filtres associés
+-> Filtre slider sur les prix (nouislider)
+-> Problème sur les url de chaque route réglé, via le fichier routes.yaml
+-> Page de connection et d'sincr
 
 
 
@@ -46,10 +49,10 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTM0MTMyMiwtMTc1OTcxMDMxMiwtMT
-MwNjA3OTg5MCwxOTY3MjMzMDA3LDcwODE5NDU4LDE0NDI3NDk2
-MzMsMjkwNDY5ODA5LDIwODM4ODA1ODMsLTE2NjM4MTE5MTIsLT
-E5MzA1MDQzNTYsMTgwNzg0NDgzNywtMTA4ODg1OTc5NCwtMTMw
-MjMxMTY3NCwyMDUyNDA0Njg5LDIxMzI3OTYxMDMsLTY2NzkwNT
-UxMSw4MDIzMzgwMjddfQ==
+eyJoaXN0b3J5IjpbLTE2MjY1MTQ5LDEyOTEzNDEzMjIsLTE3NT
+k3MTAzMTIsLTEzMDYwNzk4OTAsMTk2NzIzMzAwNyw3MDgxOTQ1
+OCwxNDQyNzQ5NjMzLDI5MDQ2OTgwOSwyMDgzODgwNTgzLC0xNj
+YzODExOTEyLC0xOTMwNTA0MzU2LDE4MDc4NDQ4MzcsLTEwODg4
+NTk3OTQsLTEzMDIzMTE2NzQsMjA1MjQwNDY4OSwyMTMyNzk2MT
+AzLC02Njc5MDU1MTEsODAyMzM4MDI3XX0=
 -->
