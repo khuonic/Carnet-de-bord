@@ -40,7 +40,7 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 -> Page d'ajout d'une adresse au profil en récupérant l'user via security.yaml
 -> Création du formulaire de contact
 -> Création de plus de produits et insertion en bdd via easyadmin
-->  Création de la page profil, avec plusieurs vues (possibilité de changer l'email et l'abonnement à la newsle
+->  Création de la page profil, avec plusieurs vues (possibilité de changer l'email et l'abonnement à la newsletter, possibilité de changer de mot de passe, affichage des différentes adresses du compte
 
 
 
@@ -53,7 +53,7 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTgwNzczNTEsNTU2Njc0MDMxLDEyOT
+eyJoaXN0b3J5IjpbLTE5MjQwMjQzNjQsNTU2Njc0MDMxLDEyOT
 EzNDEzMjIsLTE3NTk3MTAzMTIsLTEzMDYwNzk4OTAsMTk2NzIz
 MzAwNyw3MDgxOTQ1OCwxNDQyNzQ5NjMzLDI5MDQ2OTgwOSwyMD
 gzODgwNTgzLC0xNjYzODExOTEyLC0xOTMwNTA0MzU2LDE4MDc4
