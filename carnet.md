@@ -38,6 +38,9 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 -> Problème sur les url de chaque route réglé, via le fichier routes.yaml : toutes les routes des controllers sont insérées dans le fichier
 -> Page de connection et d'inscription
 -> Page d'ajout d'une adresse au profil en récupérant l'user via security.yaml
+-> Création du formulaire de contact
+-> Création de plus de produits et insertion en bdd via easyadmin
+->  Création de la page profil, avec plusieurs vues (possibilité de changer l'email et l'abonnement à la newsle
 
 
 
@@ -50,10 +53,11 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2Njc0MDMxLDEyOTEzNDEzMjIsLTE3NT
-k3MTAzMTIsLTEzMDYwNzk4OTAsMTk2NzIzMzAwNyw3MDgxOTQ1
-OCwxNDQyNzQ5NjMzLDI5MDQ2OTgwOSwyMDgzODgwNTgzLC0xNj
-YzODExOTEyLC0xOTMwNTA0MzU2LDE4MDc4NDQ4MzcsLTEwODg4
-NTk3OTQsLTEzMDIzMTE2NzQsMjA1MjQwNDY4OSwyMTMyNzk2MT
-AzLC02Njc5MDU1MTEsODAyMzM4MDI3XX0=
+eyJoaXN0b3J5IjpbLTE2NTgwNzczNTEsNTU2Njc0MDMxLDEyOT
+EzNDEzMjIsLTE3NTk3MTAzMTIsLTEzMDYwNzk4OTAsMTk2NzIz
+MzAwNyw3MDgxOTQ1OCwxNDQyNzQ5NjMzLDI5MDQ2OTgwOSwyMD
+gzODgwNTgzLC0xNjYzODExOTEyLC0xOTMwNTA0MzU2LDE4MDc4
+NDQ4MzcsLTEwODg4NTk3OTQsLTEzMDIzMTE2NzQsMjA1MjQwND
+Y4OSwyMTMyNzk2MTAzLC02Njc5MDU1MTEsODAyMzM4MDI3XX0=
+
 -->
