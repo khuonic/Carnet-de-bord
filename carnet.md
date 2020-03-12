@@ -41,7 +41,7 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 -> Création du formulaire de contact
 -> Création de plus de produits et insertion en bdd via easyadmin
 ->  Création de la page profil, avec plusieurs vues (possibilité de changer l'email et l'abonnement à la newsletter, possibilité de changer de mot de passe, affichage des différentes adresses du compte 
-
+-> Modification de la table article image en bdd et des fonctions qui lui étaient liées
 
 
 
@@ -54,7 +54,7 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTEzOTM4NiwtMTEzNjkxNTY3Miw1NT
+eyJoaXN0b3J5IjpbLTQ3MzIxNTA5MCwtMTEzNjkxNTY3Miw1NT
 Y2NzQwMzEsMTI5MTM0MTMyMiwtMTc1OTcxMDMxMiwtMTMwNjA3
 OTg5MCwxOTY3MjMzMDA3LDcwODE5NDU4LDE0NDI3NDk2MzMsMj
 kwNDY5ODA5LDIwODM4ODA1ODMsLTE2NjM4MTE5MTIsLTE5MzA1
