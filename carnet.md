@@ -45,7 +45,8 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 -> Page profil : adresse-> possibilité d'ajouter jusqu'a 5 adresses, de les modifier ou les supprimer au besoin, une seule adresse par défault est possible. Sécurisation de l'accès au nouveau password, possible seulement si l'ancien mot de passe a été renseigné au préalable.
 -> Début de la création des reviews sur un produit, lié a l'account, affichage des reviews.
 -> Mise en place des droits d'acces sur les pages selon le role utilisateur (ROLE_USER ou ROLE_ADMIN), notamment pour le backoffice easyadmin, dorénavant accessible que pour le ROLE _admin, et la page de profil uniquement accessible pour le ROLE_USER
--> Fo
+-> Formulaire de contatct terminé, les utilisateurs peuvent désormais envoyer un message via le formulaire de contact en cas de besoin.
+->Refactoring de la base de données (table images et colonne role dans account) et simplification da
 
 
 
@@ -58,7 +59,7 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2NDE3NzEyLC00NzMyMTUwOTAsLTExMz
+eyJoaXN0b3J5IjpbNzAyMjUwODcwLC00NzMyMTUwOTAsLTExMz
 Y5MTU2NzIsNTU2Njc0MDMxLDEyOTEzNDEzMjIsLTE3NTk3MTAz
 MTIsLTEzMDYwNzk4OTAsMTk2NzIzMzAwNyw3MDgxOTQ1OCwxND
 QyNzQ5NjMzLDI5MDQ2OTgwOSwyMDgzODgwNTgzLC0xNjYzODEx
