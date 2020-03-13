@@ -42,6 +42,7 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 -> Création de plus de produits et insertion en bdd via easyadmin
 ->  Création de la page profil, avec plusieurs vues (possibilité de changer l'email et l'abonnement à la newsletter, possibilité de changer de mot de passe, affichage des différentes adresses du compte 
 -> Modification de la table article image en bdd et des fonctions qui lui étaient liées
+-> Page profil : adresse-> possibilité d'ajouter jusqu'a 5 adresses, de les modifier ou les supprimer au besoin, une seule adresse par défault est possible. Sécurisation de l'accès 
 
 
 
@@ -54,11 +55,11 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MzIxNTA5MCwtMTEzNjkxNTY3Miw1NT
-Y2NzQwMzEsMTI5MTM0MTMyMiwtMTc1OTcxMDMxMiwtMTMwNjA3
-OTg5MCwxOTY3MjMzMDA3LDcwODE5NDU4LDE0NDI3NDk2MzMsMj
-kwNDY5ODA5LDIwODM4ODA1ODMsLTE2NjM4MTE5MTIsLTE5MzA1
-MDQzNTYsMTgwNzg0NDgzNywtMTA4ODg1OTc5NCwtMTMwMjMxMT
-Y3NCwyMDUyNDA0Njg5LDIxMzI3OTYxMDMsLTY2NzkwNTUxMSw4
-MDIzMzgwMjddfQ==
+eyJoaXN0b3J5IjpbLTE1MTcwMTg0NDksLTQ3MzIxNTA5MCwtMT
+EzNjkxNTY3Miw1NTY2NzQwMzEsMTI5MTM0MTMyMiwtMTc1OTcx
+MDMxMiwtMTMwNjA3OTg5MCwxOTY3MjMzMDA3LDcwODE5NDU4LD
+E0NDI3NDk2MzMsMjkwNDY5ODA5LDIwODM4ODA1ODMsLTE2NjM4
+MTE5MTIsLTE5MzA1MDQzNTYsMTgwNzg0NDgzNywtMTA4ODg1OT
+c5NCwtMTMwMjMxMTY3NCwyMDUyNDA0Njg5LDIxMzI3OTYxMDMs
+LTY2NzkwNTUxMV19
 -->
