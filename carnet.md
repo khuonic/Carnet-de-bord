@@ -42,7 +42,9 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 -> Création de plus de produits et insertion en bdd via easyadmin
 ->  Création de la page profil, avec plusieurs vues (possibilité de changer l'email et l'abonnement à la newsletter, possibilité de changer de mot de passe, affichage des différentes adresses du compte 
 -> Modification de la table article image en bdd et des fonctions qui lui étaient liées
--> Page profil : adresse-> possibilité d'ajouter jusqu'a 5 adresses, de les modifier ou les supprimer au besoin, une seule adresse par défault est possible. Sécurisation de l'accès 
+-> Page profil : adresse-> possibilité d'ajouter jusqu'a 5 adresses, de les modifier ou les supprimer au besoin, une seule adresse par défault est possible. Sécurisation de l'accès au nouveau password, possible seulement si l'ancien mot de passe a été renseigné au préalable.
+-> Début de la création des reviews sur un produit, lié a l'account, affichage des reviews.
+-> Mise en place des droits d'acces sur les pages selon le role utilisateur (ROLE_USER ou ROLE_ADMIN)
 
 
 
@@ -55,7 +57,7 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTcwMTg0NDksLTQ3MzIxNTA5MCwtMT
+eyJoaXN0b3J5IjpbLTE3NDA4MTgxNzIsLTQ3MzIxNTA5MCwtMT
 EzNjkxNTY3Miw1NTY2NzQwMzEsMTI5MTM0MTMyMiwtMTc1OTcx
 MDMxMiwtMTMwNjA3OTg5MCwxOTY3MjMzMDA3LDcwODE5NDU4LD
 E0NDI3NDk2MzMsMjkwNDY5ODA5LDIwODM4ODA1ODMsLTE2NjM4
