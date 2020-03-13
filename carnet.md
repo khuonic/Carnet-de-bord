@@ -44,7 +44,8 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 -> Modification de la table article image en bdd et des fonctions qui lui étaient liées
 -> Page profil : adresse-> possibilité d'ajouter jusqu'a 5 adresses, de les modifier ou les supprimer au besoin, une seule adresse par défault est possible. Sécurisation de l'accès au nouveau password, possible seulement si l'ancien mot de passe a été renseigné au préalable.
 -> Début de la création des reviews sur un produit, lié a l'account, affichage des reviews.
--> Mise en place des droits d'acces sur les pages selon le role utilisateur (ROLE_USER ou ROLE_ADMIN)
+-> Mise en place des droits d'acces sur les pages selon le role utilisateur (ROLE_USER ou ROLE_ADMIN), notamment pour le backoffice easyadmin, dorénavant accessible que pour le ROLE _admin, et la page de profil uniquement accessible pour le ROLE_USER
+-> Fo
 
 
 
@@ -57,11 +58,11 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDA4MTgxNzIsLTQ3MzIxNTA5MCwtMT
-EzNjkxNTY3Miw1NTY2NzQwMzEsMTI5MTM0MTMyMiwtMTc1OTcx
-MDMxMiwtMTMwNjA3OTg5MCwxOTY3MjMzMDA3LDcwODE5NDU4LD
-E0NDI3NDk2MzMsMjkwNDY5ODA5LDIwODM4ODA1ODMsLTE2NjM4
-MTE5MTIsLTE5MzA1MDQzNTYsMTgwNzg0NDgzNywtMTA4ODg1OT
-c5NCwtMTMwMjMxMTY3NCwyMDUyNDA0Njg5LDIxMzI3OTYxMDMs
-LTY2NzkwNTUxMV19
+eyJoaXN0b3J5IjpbNDY2NDE3NzEyLC00NzMyMTUwOTAsLTExMz
+Y5MTU2NzIsNTU2Njc0MDMxLDEyOTEzNDEzMjIsLTE3NTk3MTAz
+MTIsLTEzMDYwNzk4OTAsMTk2NzIzMzAwNyw3MDgxOTQ1OCwxND
+QyNzQ5NjMzLDI5MDQ2OTgwOSwyMDgzODgwNTgzLC0xNjYzODEx
+OTEyLC0xOTMwNTA0MzU2LDE4MDc4NDQ4MzcsLTEwODg4NTk3OT
+QsLTEzMDIzMTE2NzQsMjA1MjQwNDY4OSwyMTMyNzk2MTAzLC02
+Njc5MDU1MTFdfQ==
 -->
