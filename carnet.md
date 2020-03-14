@@ -47,7 +47,11 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 -> Mise en place des droits d'acces sur les pages selon le role utilisateur (ROLE_USER ou ROLE_ADMIN), notamment pour le backoffice easyadmin, dorénavant accessible que pour le ROLE _admin, et la page de profil uniquement accessible pour le ROLE_USER
 -> Formulaire de contatct terminé, les utilisateurs peuvent désormais envoyer un message via le formulaire de contact en cas de besoin.
 ->Refactoring de la base de données (table images et colonne role dans account) et simplification d'easyadmin.
--> Affichage des étoiles selon la moyenne des rating données pour un produit. Si un utilisateur souhaite se connecter depuis une page produit afin de co
+-> Affichage des étoiles selon la moyenne des rating données pour un produit. 
+->Si un utilisateur souhaite se connecter depuis une page produit afin de commenter, il sera redirigé sur cette page apres l'authentification réussie. 
+-> Edition et suppression d'un commentaire désormais possible pour l'utilisateur.
+-> Mise en place d'une redirection automatique vers la page d'accueil apres 5sec sur la page success ou error.
+->
 
 
 
@@ -59,11 +63,11 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTg1MjkwNywtMTY4NTgxNzM0NywtND
-czMjE1MDkwLC0xMTM2OTE1NjcyLDU1NjY3NDAzMSwxMjkxMzQx
-MzIyLC0xNzU5NzEwMzEyLC0xMzA2MDc5ODkwLDE5NjcyMzMwMD
-csNzA4MTk0NTgsMTQ0Mjc0OTYzMywyOTA0Njk4MDksMjA4Mzg4
-MDU4MywtMTY2MzgxMTkxMiwtMTkzMDUwNDM1NiwxODA3ODQ0OD
-M3LC0xMDg4ODU5Nzk0LC0xMzAyMzExNjc0LDIwNTI0MDQ2ODks
-MjEzMjc5NjEwM119
+eyJoaXN0b3J5IjpbLTE2MDc3NTk0OTAsLTE2ODU4MTczNDcsLT
+Q3MzIxNTA5MCwtMTEzNjkxNTY3Miw1NTY2NzQwMzEsMTI5MTM0
+MTMyMiwtMTc1OTcxMDMxMiwtMTMwNjA3OTg5MCwxOTY3MjMzMD
+A3LDcwODE5NDU4LDE0NDI3NDk2MzMsMjkwNDY5ODA5LDIwODM4
+ODA1ODMsLTE2NjM4MTE5MTIsLTE5MzA1MDQzNTYsMTgwNzg0ND
+gzNywtMTA4ODg1OTc5NCwtMTMwMjMxMTY3NCwyMDUyNDA0Njg5
+LDIxMzI3OTYxMDNdfQ==
 -->
