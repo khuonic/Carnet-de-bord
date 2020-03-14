@@ -51,7 +51,7 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 ->Si un utilisateur souhaite se connecter depuis une page produit afin de commenter, il sera redirigé sur cette page apres l'authentification réussie. 
 -> Edition et suppression d'un commentaire désormais possible pour l'utilisateur.
 -> Mise en place d'une redirection automatique vers la page d'accueil apres 5sec sur la page success ou error.
-->
+-> 
 
 
 
@@ -63,7 +63,7 @@ Injection de dépendance pour appeler la classe product, afin de pouvoir appeler
 </blockquote>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc3NTk0OTAsLTE2ODU4MTczNDcsLT
+eyJoaXN0b3J5IjpbLTEzODY3NTQ4NTQsLTE2ODU4MTczNDcsLT
 Q3MzIxNTA5MCwtMTEzNjkxNTY3Miw1NTY2NzQwMzEsMTI5MTM0
 MTMyMiwtMTc1OTcxMDMxMiwtMTMwNjA3OTg5MCwxOTY3MjMzMD
 A3LDcwODE5NDU4LDE0NDI3NDk2MzMsMjkwNDY5ODA5LDIwODM4
