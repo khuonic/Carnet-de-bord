@@ -98,6 +98,8 @@ SInon je suis en train de récupérer toutes les infos du Xml pour afficher un r
 **Semaine 5:**
 
 **Lundi:** 
+	Discussion avec Nicolas, afin de mettre en place petit a petit l'export sur le site.  Avec des options possibles pour l'utilisateur (ex: avoir les En tetes dans le csv ou non, possibilité de choisir le caractère de séparation des colonnes (';' , ';
+**Mardi:**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQ2MTk5NDBdfQ==
+eyJoaXN0b3J5IjpbLTMwNDc0NjkyLC0xMTQ0NjE5OTQwXX0=
 -->
