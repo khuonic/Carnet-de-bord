@@ -99,7 +99,9 @@ SInon je suis en train de récupérer toutes les infos du Xml pour afficher un r
 
 **Lundi:** 
 	Discussion avec Nicolas, afin de mettre en place petit a petit l'export sur le site.  Avec des options possibles pour l'utilisateur (ex: avoir les En tetes dans le csv ou non, possibilité de choisir le caractère de séparation des colonnes (';' , ';' ) ou encore choisir directement un format par rapport aux anciens exports fait dans le passé). J'ai donc créé un autre répertoire en ftp, dans lequel je créé un fichier txt avec les options choisies à chaque export. Ca permet de créer un historique qui pourra servir si l'utilisateur veut aller plus vite dans le choix des options.
-**Mardi:**
+
+**Mardi:** Dorénavant au lieu de simuler l'envoi des données souhaitées via un formulaire que j'avais créé je peux désormais directement les envoyer via le site, via une requête ajax qui envoie les paramètres nécessaires a l'export Csv ($params['nomTable'],  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzU1NjMyLC0xMTQ0NjE5OTQwXX0=
+eyJoaXN0b3J5IjpbLTE1MTI1NzIwNzIsLTExNDQ2MTk5NDBdfQ
+==
 -->
