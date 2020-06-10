@@ -103,7 +103,9 @@ SInon je suis en train de récupérer toutes les infos du Xml pour afficher un r
 **Mardi:** Dorénavant au lieu de simuler l'envoi des données souhaitées via un formulaire que j'avais créé je peux désormais directement les envoyer via le site, via une requête ajax qui envoie les paramètres nécessaires a l'export Csv ($params['nomTable'], $params['idRubrique'], $params['options']).  
 J'ai également ajouter des conditions dans la récupération des informations des pages Xml du backOffice, pour récupérer les infos en Francais ou en Anglais, selon si le site sur lequel on se trouve est en Fr ou En.
 Je dois réfléchir à d'autre options possibles qui seraient utiles pour l'utilisateur lors de l'export. Je dois également trouver un moyen (lorsque je récupère les pages par exemple) de récupérer seulement les pages affichées en backOffice, non pas toutes les pages de Bdd.
+
+**Mercredi:**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzkwMTc0NjcsLTExNDQ2MTk5NDBdfQ
-==
+eyJoaXN0b3J5IjpbLTE0NDEzNjkyMjIsLTIwNzkwMTc0NjcsLT
+ExNDQ2MTk5NDBdfQ==
 -->
