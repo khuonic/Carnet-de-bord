@@ -105,8 +105,8 @@ J'ai également ajouter des conditions dans la récupération des informations d
 Je dois réfléchir à d'autre options possibles qui seraient utiles pour l'utilisateur lors de l'export. Je dois également trouver un moyen (lorsque je récupère les pages par exemple) de récupérer seulement les pages affichées en backOffice, non pas toutes les pages de Bdd.
 
 **Mercredi:** J'ai mis en place l'export Xml en utilisant DOMDocument en php. Je boucle sur les produits que l'on récupère et sur les séparateurs récupérés par la fonction recupèreInfosXml. Je créé d'abord un champ table auquel je passse en attribut le nom de table (moins le me_).
-Ensuite je créé un champ <produit> pour chaque produit récupéré, a l'intérieur duquel je créé un champ séparateur avec comme attribut nom le nom du séparateur
+Ensuite je créé un champ <produit> pour chaque produit récupéré, a l'intérieur duquel je créé un champ séparateur avec comme attribut nom le nom du séparateur, et a l'intérieur duquel je créé des champs titres  avec comme attribut nom les titres des infos récupérées en base de données (ex nom; idRubrique) auxquels j'appendCHild un textNode qui contient les valeurs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3ODcwMjY3MiwtMjA3OTAxNzQ2NywtMT
-E0NDYxOTk0MF19
+eyJoaXN0b3J5IjpbMjY4OTc4ODQ5LC0yMDc5MDE3NDY3LC0xMT
+Q0NjE5OTQwXX0=
 -->
