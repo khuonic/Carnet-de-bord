@@ -108,8 +108,9 @@ Je dois réfléchir à d'autre options possibles qui seraient utiles pour l'util
 Ensuite je créé un champ <produit> pour chaque produit récupéré, a l'intérieur duquel je créé un champ séparateur avec comme attribut nom le nom du séparateur, et a l'intérieur duquel je créé des champs titres  avec comme attribut nom les titres des infos récupérées en base de données (ex nom; idRubrique) auxquels j'appendCHild un textNode qui contient les valeurs.
 Des options sont possibles pour l'XML, telle que choisir l'encodage (utf-8 ou utf-16), choisir d'exporter l'XML indenté ou non (DOMDocument::formatOutput), possibilité d'afficher ou non les séparateurs visibles dans le backOffice (ex: 'informations', 'référencement') de la même manière que dans l'export CSV.
 Il me reste à changer la façon donc je sauvegarde les différentes options choisies par l'utilisateur dans le fichier txt du répertoire optionsExport. Je vais voir avec Nicolas la meilleure facon de faire pour pouvoir les exploiter au mieux plus tard. 
-J'ai pour le moment créé une condition qui dans le cas ou l'utilisateur ne choisit pas un ancien modèle d'export, ses choix seront sauvegardé dans les anciens modèles seulement si aucun des fichiers déjà existants ne contient les mêmes paramètres.
+J'ai pour le moment créé une condition qui dans le cas ou l'utilisateur ne choisit pas un ancien modèle d'export, ses choix  seront sauvegardés dans les anciens modèles seulement si aucun des fichiers déjà existants ne contient les mêmes paramètres.
+J'attends
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODI0NzQ2ODgsMTA2MjE1NTEzMiwtMj
-A3OTAxNzQ2NywtMTE0NDYxOTk0MF19
+eyJoaXN0b3J5IjpbNzczNzIwOTUzLDEwNjIxNTUxMzIsLTIwNz
+kwMTc0NjcsLTExNDQ2MTk5NDBdfQ==
 -->
