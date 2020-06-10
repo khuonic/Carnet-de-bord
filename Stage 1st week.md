@@ -106,8 +106,8 @@ Je dois réfléchir à d'autre options possibles qui seraient utiles pour l'util
 
 **Mercredi:** J'ai mis en place l'export Xml en utilisant DOMDocument en php. Je boucle sur les produits que l'on récupère et sur les séparateurs récupérés par la fonction recupèreInfosXml. Je créé d'abord un champ table auquel je passse en attribut le nom de table (moins le me_).
 Ensuite je créé un champ <produit> pour chaque produit récupéré, a l'intérieur duquel je créé un champ séparateur avec comme attribut nom le nom du séparateur, et a l'intérieur duquel je créé des champs titres  avec comme attribut nom les titres des infos récupérées en base de données (ex nom; idRubrique) auxquels j'appendCHild un textNode qui contient les valeurs.
-D
+Des options sont possibles pour l'XML, telle que choisir l'encodage (utf-8 ou utf-16), choisir d'exporter l'XML indenté ou non (DOMDocument::formatOutput), possibilité d'afficher ou non les séparateurs visibles dans le backOffice (ex: 'informations', 'référencement'). De la
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDA3NTY3OSwtMjA3OTAxNzQ2NywtMT
-E0NDYxOTk0MF19
+eyJoaXN0b3J5IjpbMjI3OTAzODQwLC0yMDc5MDE3NDY3LC0xMT
+Q0NjE5OTQwXX0=
 -->
