@@ -104,8 +104,9 @@ SInon je suis en train de récupérer toutes les infos du Xml pour afficher un r
 J'ai également ajouter des conditions dans la récupération des informations des pages Xml du backOffice, pour récupérer les infos en Francais ou en Anglais, selon si le site sur lequel on se trouve est en Fr ou En.
 Je dois réfléchir à d'autre options possibles qui seraient utiles pour l'utilisateur lors de l'export. Je dois également trouver un moyen (lorsque je récupère les pages par exemple) de récupérer seulement les pages affichées en backOffice, non pas toutes les pages de Bdd.
 
-**Mercredi:** J'ai mis en place l'export Xml en utilisant DOMDocument en php. Je boucle sur les produits que l'on récupère et sur 
+**Mercredi:** J'ai mis en place l'export Xml en utilisant DOMDocument en php. Je boucle sur les produits que l'on récupère et sur les séparateurs récupérés par la fonction recupèreInfosXml. Je créé d'abord un champ table auquel je passse en attribut le nom de table (moins le me_).
+Ensuite je créé un champ <produit> pour chaque produit récupéré, a l'intérieur duquel je créé un champ séparateur avec comme attribut nom le nom du séparateur
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTg5MDU3NDEsLTIwNzkwMTc0NjcsLT
-ExNDQ2MTk5NDBdfQ==
+eyJoaXN0b3J5IjpbMTU3ODcwMjY3MiwtMjA3OTAxNzQ2NywtMT
+E0NDYxOTk0MF19
 -->
