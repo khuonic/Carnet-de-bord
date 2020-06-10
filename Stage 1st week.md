@@ -109,8 +109,8 @@ Ensuite je créé un champ <produit> pour chaque produit récupéré, a l'intér
 Des options sont possibles pour l'XML, telle que choisir l'encodage (utf-8 ou utf-16), choisir d'exporter l'XML indenté ou non (DOMDocument::formatOutput), possibilité d'afficher ou non les séparateurs visibles dans le backOffice (ex: 'informations', 'référencement') de la même manière que dans l'export CSV.
 Il me reste à changer la façon donc je sauvegarde les différentes options choisies par l'utilisateur dans le fichier txt du répertoire optionsExport. Je vais voir avec Nicolas la meilleure facon de faire pour pouvoir les exploiter au mieux plus tard. 
 J'ai pour le moment créé une condition qui dans le cas ou l'utilisateur ne choisit pas un ancien modèle d'export, ses choix  seront sauvegardés dans les anciens modèles seulement si aucun des fichiers déjà existants ne contient les mêmes paramètres.
-J'attends
+J'attends de voir avec Nicolas sur quoi je peux me lancer, je suis un peu bloqué pour avancer tant qu'on n'aura pas réellement implanter les requêtes ajax pour appeler mon script, avec toutes les options envoyées en paramètre de la requête.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczNzIwOTUzLDEwNjIxNTUxMzIsLTIwNz
-kwMTc0NjcsLTExNDQ2MTk5NDBdfQ==
+eyJoaXN0b3J5IjpbMTg4NTA2NzMyOSwxMDYyMTU1MTMyLC0yMD
+c5MDE3NDY3LC0xMTQ0NjE5OTQwXX0=
 -->
