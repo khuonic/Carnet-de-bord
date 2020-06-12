@@ -114,8 +114,9 @@ J'attends de voir avec Nicolas sur quoi je peux me lancer, je suis un peu bloqu�
 **Vendredi:** Refactoring du code et implémentation de manière plus dynamique des options et de l'export.
 Nicolas a modifié les requêtes ajax dans les fichiers masterEdit, et a implémenté du Js supplémentaire (avec Jquery) notamment pour toggle les élements selon si on choisit l'export Csv ou Xml. 
 On recoit bien en paramètre de la requete les options choisies par l'utilisateur afin de créer le fichier dans le répertoire export.
-Il reste encore à créer l'export en js qui lancera le download pour l'utilisateur
+Il reste encore à créer l'export en js qui lancera le download du fichier créé (le nom du fichier est envoyé en réponse lors du click sur exporter).
+Lundi je vais pouvoir me lancer sur la recherche des valeurs multiples qui peuvent etre possible pour un produit. Ces valeurs ne se trouvant pas dans une table classique, je vais devoir faire des requêtes sql supplémentaires pour récupérer les valeurs multiples.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTAwNjA0MDAsMTg4NTA2NzMyOSwxMD
+eyJoaXN0b3J5IjpbLTE0OTYzMDIwMzQsMTg4NTA2NzMyOSwxMD
 YyMTU1MTMyLC0yMDc5MDE3NDY3LC0xMTQ0NjE5OTQwXX0=
 -->
