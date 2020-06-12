@@ -112,8 +112,10 @@ J'ai pour le moment créé une condition qui dans le cas ou l'utilisateur ne cho
 J'attends de voir avec Nicolas sur quoi je peux me lancer, je suis un peu bloqué pour avancer tant qu'on n'aura pas réellement implanter les requêtes ajax pour appeler mon script, avec toutes les options envoyées en paramètre de la requête.
 
 **Vendredi:** Refactoring du code et implémentation de manière plus dynamique des options et de l'export.
-Nicolas a modifié les requêtes ajax dans les fichiers masterEdit, et a implémenté du Js supplémentaire (avec Jquery) 
+Nicolas a modifié les requêtes ajax dans les fichiers masterEdit, et a implémenté du Js supplémentaire (avec Jquery) notamment pour toggle les élements selon si on choisit l'export Csv ou Xml. 
+On recoit bien en paramètre de la requete les options choisies par l'utilisateur afin de créer le fichier dans le répertoire export.
+Il reste encore à créer l'export en js qui lancera le download pour l'utilisateur
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODc5MzA4MywxODg1MDY3MzI5LDEwNj
-IxNTUxMzIsLTIwNzkwMTc0NjcsLTExNDQ2MTk5NDBdfQ==
+eyJoaXN0b3J5IjpbLTEzOTAwNjA0MDAsMTg4NTA2NzMyOSwxMD
+YyMTU1MTMyLC0yMDc5MDE3NDY3LC0xMTQ0NjE5OTQwXX0=
 -->
