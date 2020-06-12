@@ -110,7 +110,10 @@ Des options sont possibles pour l'XML, telle que choisir l'encodage (utf-8 ou ut
 Il me reste à changer la façon donc je sauvegarde les différentes options choisies par l'utilisateur dans le fichier txt du répertoire optionsExport. Je vais voir avec Nicolas la meilleure facon de faire pour pouvoir les exploiter au mieux plus tard. 
 J'ai pour le moment créé une condition qui dans le cas ou l'utilisateur ne choisit pas un ancien modèle d'export, ses choix  seront sauvegardés dans les anciens modèles seulement si aucun des fichiers déjà existants ne contient les mêmes paramètres.
 J'attends de voir avec Nicolas sur quoi je peux me lancer, je suis un peu bloqué pour avancer tant qu'on n'aura pas réellement implanter les requêtes ajax pour appeler mon script, avec toutes les options envoyées en paramètre de la requête.
+
+**Vendredi:** Refactoring du code et implémentation de manière plus dynamique des options et de l'export.
+Nicolas a modifié les requêtes ajax dans les fichiers masterEdit, et a implémenté du Js supplémentaire (avec Jquery) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTA2NzMyOSwxMDYyMTU1MTMyLC0yMD
-c5MDE3NDY3LC0xMTQ0NjE5OTQwXX0=
+eyJoaXN0b3J5IjpbMTM3ODc5MzA4MywxODg1MDY3MzI5LDEwNj
+IxNTUxMzIsLTIwNzkwMTc0NjcsLTExNDQ2MTk5NDBdfQ==
 -->
