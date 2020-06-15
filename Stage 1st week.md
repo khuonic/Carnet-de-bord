@@ -117,9 +117,11 @@ On recoit bien en paramètre de la requete les options choisies par l'utilisateu
 Il reste encore à créer l'export en js qui lancera le download du fichier créé (le nom du fichier est envoyé en réponse lors du click sur exporter).
 Lundi je vais pouvoir me lancer sur la recherche des valeurs multiples qui peuvent etre possible pour un produit. Ces valeurs ne se trouvant pas dans une table classique, je vais devoir faire des requêtes sql supplémentaires pour récupérer les valeurs multiples.
 
-Lu
+**Semaine 6 :**
+
+**Lundi:**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODI1NTIzMSwtMTQ5NjMwMjAzNCwxOD
+eyJoaXN0b3J5IjpbLTExOTYyMjc3MiwtMTQ5NjMwMjAzNCwxOD
 g1MDY3MzI5LDEwNjIxNTUxMzIsLTIwNzkwMTc0NjcsLTExNDQ2
 MTk5NDBdfQ==
 -->
