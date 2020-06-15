@@ -116,7 +116,10 @@ Nicolas a modifié les requêtes ajax dans les fichiers masterEdit, et a implém
 On recoit bien en paramètre de la requete les options choisies par l'utilisateur afin de créer le fichier dans le répertoire export.
 Il reste encore à créer l'export en js qui lancera le download du fichier créé (le nom du fichier est envoyé en réponse lors du click sur exporter).
 Lundi je vais pouvoir me lancer sur la recherche des valeurs multiples qui peuvent etre possible pour un produit. Ces valeurs ne se trouvant pas dans une table classique, je vais devoir faire des requêtes sql supplémentaires pour récupérer les valeurs multiples.
+
+Lu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTYzMDIwMzQsMTg4NTA2NzMyOSwxMD
-YyMTU1MTMyLC0yMDc5MDE3NDY3LC0xMTQ0NjE5OTQwXX0=
+eyJoaXN0b3J5IjpbLTg2ODI1NTIzMSwtMTQ5NjMwMjAzNCwxOD
+g1MDY3MzI5LDEwNjIxNTUxMzIsLTIwNzkwMTc0NjcsLTExNDQ2
+MTk5NDBdfQ==
 -->
