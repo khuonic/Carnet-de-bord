@@ -124,9 +124,9 @@ J'ai pu avancé sur la récupération des valeurs multiples pour les produits.
 Je récupère dans le xml les champs->typeinfo avec la valeur 'listemultiple', je recupère la correspondance ('champ' dans la base boutique_info_multiple qui permet de recuperertoutes  les 'valeur' pour un produit), je récupère également les champs->valeurspossibles ce qui me donne (base:me_fichiers par exemple, qui donne donc le nom de la table dans laquelle aller chercher les noms des infos multiples avec les 'valeur' récupérées dans le même temps).
 Une fois la nouvelle requête sql effectuée, je récupère les différentes infos multiples pour chaque Produit s'il en existe, que je place dans un string et que j'introduis dans le tableau retourné par ma fonction recupereProduits. A l'export je place également en nom de colonnes le nom 'infosmultiples' avec un array_push tout simplement.
 
-**Mardi:**
+**Mardi:** Application sur l'export Xml également, le séparateur InfoMultiples est créé et à l'intérieur un titre avec un attributeName='infosMultiples' qui récupère les infos multiples de la requête.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE0NzM3MDksLTExOTYyMjc3MiwtMT
-Q5NjMwMjAzNCwxODg1MDY3MzI5LDEwNjIxNTUxMzIsLTIwNzkw
-MTc0NjcsLTExNDQ2MTk5NDBdfQ==
+eyJoaXN0b3J5IjpbMTAzNTg5NTgzOSwtMTIwMTQ3MzcwOSwtMT
+E5NjIyNzcyLC0xNDk2MzAyMDM0LDE4ODUwNjczMjksMTA2MjE1
+NTEzMiwtMjA3OTAxNzQ2NywtMTE0NDYxOTk0MF19
 -->
