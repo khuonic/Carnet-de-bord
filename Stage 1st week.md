@@ -127,8 +127,9 @@ Une fois la nouvelle requête sql effectuée, je récupère les différentes inf
 **Mardi:** Application sur l'export Xml également, le séparateur InfoMultiples est créé et à l'intérieur un titre avec un attributeName='infosMultiples' qui récupère les infos multiples de la requête.
 Dans l'export Csv je fais un array_map(utf-8 decode) du tableau de valeurs envoyées pour qu'à l'affichage il affiche bien les accents, etc..
 J'unset également les valeurs 'base' et 'champ' du tabXml dans les deux exports, pour ne pas les avoir en tant que séparateur, ces deux valeurs n'étant utiles que pour la requête mySql permettant de récupérer les infos multiples.
+Je réfléchis à d'autres ajouts potentiels dans le dev qui seraient intéressants à effectuer.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4ODc0MDU2LC0xMjAxNDczNzA5LC0xMT
-k2MjI3NzIsLTE0OTYzMDIwMzQsMTg4NTA2NzMyOSwxMDYyMTU1
-MTMyLC0yMDc5MDE3NDY3LC0xMTQ0NjE5OTQwXX0=
+eyJoaXN0b3J5IjpbNDE4NzM2NTYsLTEyMDE0NzM3MDksLTExOT
+YyMjc3MiwtMTQ5NjMwMjAzNCwxODg1MDY3MzI5LDEwNjIxNTUx
+MzIsLTIwNzkwMTc0NjcsLTExNDQ2MTk5NDBdfQ==
 -->
