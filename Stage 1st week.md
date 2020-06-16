@@ -130,10 +130,12 @@ J'unset également les valeurs 'base' et 'champ' du tabXml dans les deux exports
 Je réfléchis à d'autres ajouts potentiels dans le dev qui seraient intéressants à effectuer.
 J'ai de nouvelles instructions à ajouter dans le dev, la tache se complique.
 Premierement il faudrait classer les produits 'pages' par rang dans la requete Sql, je vais donc devoir faire des jointures pour récupérer le rang de chacune des pages dans les table.
-Il va falloir également prendre en co
+Il va falloir également prendre en compte la recherche et le tri dans l'export, de sorte que si l'utilisateur fait une recherche avec un mot, le résultat obtenu puisse etre exporté.
+Sinon le tri servirait a changer l'ORDER BY de la requete selon le tri choisi.
+Il faudrait aussi changer l
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE0MjUwNzE4LDQxODczNjU2LC0xMjAxND
-czNzA5LC0xMTk2MjI3NzIsLTE0OTYzMDIwMzQsMTg4NTA2NzMy
-OSwxMDYyMTU1MTMyLC0yMDc5MDE3NDY3LC0xMTQ0NjE5OTQwXX
-0=
+eyJoaXN0b3J5IjpbMTI3NzIxNjk3OCw0MTg3MzY1NiwtMTIwMT
+Q3MzcwOSwtMTE5NjIyNzcyLC0xNDk2MzAyMDM0LDE4ODUwNjcz
+MjksMTA2MjE1NTEzMiwtMjA3OTAxNzQ2NywtMTE0NDYxOTk0MF
+19
 -->
