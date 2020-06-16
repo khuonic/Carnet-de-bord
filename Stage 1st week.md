@@ -121,9 +121,9 @@ Lundi je vais pouvoir me lancer sur la recherche des valeurs multiples qui peuve
 
 **Lundi:** Retour à la mide pour travailler et voir des personnes de la formation.
 J'ai pu avancé sur la récupération des valeurs multiples pour les produits.
-Je récupère dans le xml les champs qui ont 
+Je récupère dans le xml les champs->typeinfo avec la valeur 'listemultiple', je recupère la correspondance (nom du champ dans la base boutique_info_multiple
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3NjkzMTkwLC0xMTk2MjI3NzIsLTE0OT
-YzMDIwMzQsMTg4NTA2NzMyOSwxMDYyMTU1MTMyLC0yMDc5MDE3
-NDY3LC0xMTQ0NjE5OTQwXX0=
+eyJoaXN0b3J5IjpbMTgyOTUzMzAzMSwtMTE5NjIyNzcyLC0xND
+k2MzAyMDM0LDE4ODUwNjczMjksMTA2MjE1NTEzMiwtMjA3OTAx
+NzQ2NywtMTE0NDYxOTk0MF19
 -->
