@@ -119,9 +119,11 @@ Lundi je vais pouvoir me lancer sur la recherche des valeurs multiples qui peuve
 
 **Semaine 6 :**
 
-**Lundi:** Retour à la mide
+**Lundi:** Retour à la mide pour travailler et voir des personnes de la formation.
+J'ai pu avancé sur la récupération des valeurs multiples pour les produits.
+Je récupère dans le xml les champs qui ont 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTYxNTMzMjMsLTExOTYyMjc3MiwtMT
-Q5NjMwMjAzNCwxODg1MDY3MzI5LDEwNjIxNTUxMzIsLTIwNzkw
-MTc0NjcsLTExNDQ2MTk5NDBdfQ==
+eyJoaXN0b3J5IjpbNTI3NjkzMTkwLC0xMTk2MjI3NzIsLTE0OT
+YzMDIwMzQsMTg4NTA2NzMyOSwxMDYyMTU1MTMyLC0yMDc5MDE3
+NDY3LC0xMTQ0NjE5OTQwXX0=
 -->
