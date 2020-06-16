@@ -128,8 +128,12 @@ Une fois la nouvelle requête sql effectuée, je récupère les différentes inf
 Dans l'export Csv je fais un array_map(utf-8 decode) du tableau de valeurs envoyées pour qu'à l'affichage il affiche bien les accents, etc..
 J'unset également les valeurs 'base' et 'champ' du tabXml dans les deux exports, pour ne pas les avoir en tant que séparateur, ces deux valeurs n'étant utiles que pour la requête mySql permettant de récupérer les infos multiples.
 Je réfléchis à d'autres ajouts potentiels dans le dev qui seraient intéressants à effectuer.
+J'ai de nouvelles instructions à ajouter dans le dev, la tache se complique.
+Premierement il faudrait classer les produits 'pages' par rang dans la requete Sql, je vais donc devoir faire des jointures pour récupérer le rang de chacune des pages dans les table.
+Il va falloir également prendre en co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4NzM2NTYsLTEyMDE0NzM3MDksLTExOT
-YyMjc3MiwtMTQ5NjMwMjAzNCwxODg1MDY3MzI5LDEwNjIxNTUx
-MzIsLTIwNzkwMTc0NjcsLTExNDQ2MTk5NDBdfQ==
+eyJoaXN0b3J5IjpbNDE0MjUwNzE4LDQxODczNjU2LC0xMjAxND
+czNzA5LC0xMTk2MjI3NzIsLTE0OTYzMDIwMzQsMTg4NTA2NzMy
+OSwxMDYyMTU1MTMyLC0yMDc5MDE3NDY3LC0xMTQ0NjE5OTQwXX
+0=
 -->
