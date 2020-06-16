@@ -125,8 +125,9 @@ Je récupère dans le xml les champs->typeinfo avec la valeur 'listemultiple', j
 Une fois la nouvelle requête sql effectuée, je récupère les différentes infos multiples pour chaque Produit s'il en existe, que je place dans un string et que j'introduis dans le tableau retourné par ma fonction recupereProduits. A l'export je place également en nom de colonnes le nom 'infosmultiples' avec un array_push tout simplement.
 
 **Mardi:** Application sur l'export Xml également, le séparateur InfoMultiples est créé et à l'intérieur un titre avec un attributeName='infosMultiples' qui récupère les infos multiples de la requête.
+Dans l'export Csv je fais un array_map(utf-8 decode) du tableau de valeurs envoyées pour qu'à l'affichage il affiche bien les accents, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTg5NTgzOSwtMTIwMTQ3MzcwOSwtMT
+eyJoaXN0b3J5IjpbMTI3NzUzNjUwNiwtMTIwMTQ3MzcwOSwtMT
 E5NjIyNzcyLC0xNDk2MzAyMDM0LDE4ODUwNjczMjksMTA2MjE1
 NTEzMiwtMjA3OTAxNzQ2NywtMTE0NDYxOTk0MF19
 -->
