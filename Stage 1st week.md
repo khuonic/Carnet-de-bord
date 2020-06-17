@@ -135,8 +135,10 @@ Sinon le tri servirait a changer l'ORDER BY de la requete selon le tri choisi.
 Il faudrait aussi changer le nom de fichier, de sorte que les options choisies et le type d'export apparaisse dans le nom.
 Autre options à rajouter serait également les produits archivés, si l'utilisateur choisit oui ou non de vouloir exporter les archives.
 J'ai rajouté l'option d'exporter ou non les archives selon si l'utilisateur à cliquer sur voir les archives avant d'exporter (ie si le parametre $param['archive'] vaut 0 ou 1).
+
+Mer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjgyOTExMiwtMTYyMDA1NjEyOSw0MT
+eyJoaXN0b3J5IjpbMjExNjczMDkzNCwtMTYyMDA1NjEyOSw0MT
 g3MzY1NiwtMTIwMTQ3MzcwOSwtMTE5NjIyNzcyLC0xNDk2MzAy
 MDM0LDE4ODUwNjczMjksMTA2MjE1NTEzMiwtMjA3OTAxNzQ2Ny
 wtMTE0NDYxOTk0MF19
