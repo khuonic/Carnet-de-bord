@@ -138,9 +138,11 @@ J'ai rajouté l'option d'exporter ou non les archives selon si l'utilisateur à 
 
 **Mercredi:**  Le nom des options dans le nom du fichier a été rajouté, j'ai également changé le nom des colonnes dans le csv, ce n'est plus le nom en bdd mais bien le nom affiché dans l'interface utilisateur (ie $champs->nom dans le fichier xml de MasterEdit).
 J'ai également rajouté une condition pour vérifier si l'utilisateur a trié les données dans le backend avant d'exporter, si oui selon la direction du tri (ASC ou DESC) je change l'order by de la requete sql par le nom du champ trié et sa direction, pour qu'a l'export le résultat apparaisse de la meme manière que dans l'interface.
+Je travaille sur la prise en compte de la recherche faite par l'utilisateur lors de l'export, cela pose plusieurs soucis, notamment au niveau du resume, également un problème lorsque j'exporte après avoir rentré un nom, l'export ne sort pas les v
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODMxMTU1MCwtMTAxMDg3OTQ5MSwtMT
-YyMDA1NjEyOSw0MTg3MzY1NiwtMTIwMTQ3MzcwOSwtMTE5NjIy
-NzcyLC0xNDk2MzAyMDM0LDE4ODUwNjczMjksMTA2MjE1NTEzMi
-wtMjA3OTAxNzQ2NywtMTE0NDYxOTk0MF19
+eyJoaXN0b3J5IjpbLTQ3NTYwNzgxNSwxMDY4MzExNTUwLC0xMD
+EwODc5NDkxLC0xNjIwMDU2MTI5LDQxODczNjU2LC0xMjAxNDcz
+NzA5LC0xMTk2MjI3NzIsLTE0OTYzMDIwMzQsMTg4NTA2NzMyOS
+wxMDYyMTU1MTMyLC0yMDc5MDE3NDY3LC0xMTQ0NjE5OTQwXX0=
+
 -->
