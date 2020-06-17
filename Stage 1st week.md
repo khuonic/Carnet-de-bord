@@ -136,10 +136,11 @@ Il faudrait aussi changer le nom de fichier, de sorte que les options choisies e
 Autre options à rajouter serait également les produits archivés, si l'utilisateur choisit oui ou non de vouloir exporter les archives.
 J'ai rajouté l'option d'exporter ou non les archives selon si l'utilisateur à cliquer sur voir les archives avant d'exporter (ie si le parametre $param['archive'] vaut 0 ou 1).
 
-**Mercredi:** 
+**Mercredi:**  Le nom des options dans le nom du fichier a été rajouté, j'ai également changé le nom des colonnes dans le csv, ce n'est plus le nom en bdd mais bien le nom affiché dans l'interface utilisateur (ie $champs->nom dans le fichier xml de MasterEdit).
+J'ai également rajouté une condition pour vérifier si l'u
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTA4Nzk0OTEsLTE2MjAwNTYxMjksND
-E4NzM2NTYsLTEyMDE0NzM3MDksLTExOTYyMjc3MiwtMTQ5NjMw
-MjAzNCwxODg1MDY3MzI5LDEwNjIxNTUxMzIsLTIwNzkwMTc0Nj
-csLTExNDQ2MTk5NDBdfQ==
+eyJoaXN0b3J5IjpbMjI3MDE0MDc1LC0xMDEwODc5NDkxLC0xNj
+IwMDU2MTI5LDQxODczNjU2LC0xMjAxNDczNzA5LC0xMTk2MjI3
+NzIsLTE0OTYzMDIwMzQsMTg4NTA2NzMyOSwxMDYyMTU1MTMyLC
+0yMDc5MDE3NDY3LC0xMTQ0NjE5OTQwXX0=
 -->
