@@ -136,10 +136,10 @@ Il faudrait aussi changer le nom de fichier, de sorte que les options choisies e
 Autre options à rajouter serait également les produits archivés, si l'utilisateur choisit oui ou non de vouloir exporter les archives.
 J'ai rajouté l'option d'exporter ou non les archives selon si l'utilisateur à cliquer sur voir les archives avant d'exporter (ie si le parametre $param['archive'] vaut 0 ou 1).
 
-Mer
+**Mercredi:** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNjczMDkzNCwtMTYyMDA1NjEyOSw0MT
-g3MzY1NiwtMTIwMTQ3MzcwOSwtMTE5NjIyNzcyLC0xNDk2MzAy
-MDM0LDE4ODUwNjczMjksMTA2MjE1NTEzMiwtMjA3OTAxNzQ2Ny
-wtMTE0NDYxOTk0MF19
+eyJoaXN0b3J5IjpbLTEwMTA4Nzk0OTEsLTE2MjAwNTYxMjksND
+E4NzM2NTYsLTEyMDE0NzM3MDksLTExOTYyMjc3MiwtMTQ5NjMw
+MjAzNCwxODg1MDY3MzI5LDEwNjIxNTUxMzIsLTIwNzkwMTc0Nj
+csLTExNDQ2MTk5NDBdfQ==
 -->
