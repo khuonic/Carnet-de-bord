@@ -141,11 +141,11 @@ J'ai également rajouté une condition pour vérifier si l'utilisateur a trié l
 Je travaille sur la prise en compte de la recherche faite par l'utilisateur lors de l'export, cela pose plusieurs soucis, notamment au niveau du resume, également un problème lorsque j'exporte après avoir rentré un nom, l'export ne sort pas les rubriques contenant le nom entré, seulement les produits, et autre problème, il sort les produits en double si ceux-ci se trouvent dans plus d'une rubrique à la fois.
 
 **Jeudi:** 
-J'ai rajouté un GROUP BY idProduit dans la requête sql pour qu'il n'y ai pas de doublons a l'export.
+J'ai rajouté un GROUP BY idProduit dans la requête sql pour qu'il n'y ai pas de doublons a l'export. Je travaille s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODA3Nzk4ODYsLTE2NTMwMTIxMzIsLT
-Q5MTgxNDIxMywxMDY4MzExNTUwLC0xMDEwODc5NDkxLC0xNjIw
-MDU2MTI5LDQxODczNjU2LC0xMjAxNDczNzA5LC0xMTk2MjI3Nz
-IsLTE0OTYzMDIwMzQsMTg4NTA2NzMyOSwxMDYyMTU1MTMyLC0y
-MDc5MDE3NDY3LC0xMTQ0NjE5OTQwXX0=
+eyJoaXN0b3J5IjpbLTEzNjU2Mjg5NTAsLTE3ODA3Nzk4ODYsLT
+E2NTMwMTIxMzIsLTQ5MTgxNDIxMywxMDY4MzExNTUwLC0xMDEw
+ODc5NDkxLC0xNjIwMDU2MTI5LDQxODczNjU2LC0xMjAxNDczNz
+A5LC0xMTk2MjI3NzIsLTE0OTYzMDIwMzQsMTg4NTA2NzMyOSwx
+MDYyMTU1MTMyLC0yMDc5MDE3NDY3LC0xMTQ0NjE5OTQwXX0=
 -->
