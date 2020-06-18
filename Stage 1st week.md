@@ -141,9 +141,9 @@ J'ai également rajouté une condition pour vérifier si l'utilisateur a trié l
 Je travaille sur la prise en compte de la recherche faite par l'utilisateur lors de l'export, cela pose plusieurs soucis, notamment au niveau du resume, également un problème lorsque j'exporte après avoir rentré un nom, l'export ne sort pas les rubriques contenant le nom entré, seulement les produits, et autre problème, il sort les produits en double si ceux-ci se trouvent dans plus d'une rubrique à la fois.
 
 **Jeudi:** 
-J'ai rajouté un GROUP BY idProduit dans la requête sql pour qu'il n'y ai pas de doublons a l'export. Je travaille s
+J'ai rajouté un GROUP BY idProduit dans la requête sql pour qu'il n'y ai pas de doublons a l'export. Je travaille sur la recherche a nouveau, notament sur les cas particuliers, comme le résumé ou encore les dates.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjU2Mjg5NTAsLTE3ODA3Nzk4ODYsLT
+eyJoaXN0b3J5IjpbLTExNjA1OTkwNjUsLTE3ODA3Nzk4ODYsLT
 E2NTMwMTIxMzIsLTQ5MTgxNDIxMywxMDY4MzExNTUwLC0xMDEw
 ODc5NDkxLC0xNjIwMDU2MTI5LDQxODczNjU2LC0xMjAxNDczNz
 A5LC0xMTk2MjI3NzIsLTE0OTYzMDIwMzQsMTg4NTA2NzMyOSwx
