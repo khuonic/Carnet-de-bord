@@ -140,9 +140,9 @@ J'ai rajouté l'option d'exporter ou non les archives selon si l'utilisateur à 
 J'ai également rajouté une condition pour vérifier si l'utilisateur a trié les données dans le backend avant d'exporter, si oui selon la direction du tri (ASC ou DESC) je change l'order by de la requete sql par le nom du champ trié et sa direction, pour qu'a l'export le résultat apparaisse de la meme manière que dans l'interface.
 Je travaille sur la prise en compte de la recherche faite par l'utilisateur lors de l'export, cela pose plusieurs soucis, notamment au niveau du resume, également un problème lorsque j'exporte après avoir rentré un nom, l'export ne sort pas les rubriques contenant le nom entré, seulement les produits, et autre problème, il sort les produits en double si ceux-ci se trouvent dans plus d'une rubrique à la fois.
 
-Jeudi:
+**Jeudi:**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQyNDczOTYsLTQ5MTgxNDIxMywxMD
+eyJoaXN0b3J5IjpbLTE2NTMwMTIxMzIsLTQ5MTgxNDIxMywxMD
 Y4MzExNTUwLC0xMDEwODc5NDkxLC0xNjIwMDU2MTI5LDQxODcz
 NjU2LC0xMjAxNDczNzA5LC0xMTk2MjI3NzIsLTE0OTYzMDIwMz
 QsMTg4NTA2NzMyOSwxMDYyMTU1MTMyLC0yMDc5MDE3NDY3LC0x
