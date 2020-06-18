@@ -142,10 +142,12 @@ Je travaille sur la prise en compte de la recherche faite par l'utilisateur lors
 
 **Jeudi:** 
 J'ai rajouté un GROUP BY idProduit dans la requête sql pour qu'il n'y ai pas de doublons a l'export. Je travaille sur la recherche a nouveau, notament sur les cas particuliers, comme le résumé ou encore les dates.
+Il me reste à réussir à ranger les produits dans 'pages' par rang, je dois retravailler la requete Sql.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjA1OTkwNjUsLTE3ODA3Nzk4ODYsLT
-E2NTMwMTIxMzIsLTQ5MTgxNDIxMywxMDY4MzExNTUwLC0xMDEw
-ODc5NDkxLC0xNjIwMDU2MTI5LDQxODczNjU2LC0xMjAxNDczNz
-A5LC0xMTk2MjI3NzIsLTE0OTYzMDIwMzQsMTg4NTA2NzMyOSwx
-MDYyMTU1MTMyLC0yMDc5MDE3NDY3LC0xMTQ0NjE5OTQwXX0=
+eyJoaXN0b3J5IjpbOTI0OTIzMjI3LC0xMTYwNTk5MDY1LC0xNz
+gwNzc5ODg2LC0xNjUzMDEyMTMyLC00OTE4MTQyMTMsMTA2ODMx
+MTU1MCwtMTAxMDg3OTQ5MSwtMTYyMDA1NjEyOSw0MTg3MzY1Ni
+wtMTIwMTQ3MzcwOSwtMTE5NjIyNzcyLC0xNDk2MzAyMDM0LDE4
+ODUwNjczMjksMTA2MjE1NTEzMiwtMjA3OTAxNzQ2NywtMTE0ND
+YxOTk0MF19
 -->
