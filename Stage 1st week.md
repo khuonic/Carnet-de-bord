@@ -149,12 +149,14 @@ J'ai regardé a nouveau le code que j'ai produit hier et refait des tests. Lorsq
 Petite modification également dans l'ajout des fichiers d'export, j'ai rajouté une fonction qui vérifie si un fichier du meme nom existe déjà (au cas ou on fasse plusieurs exports le meme jour avec des recherches par exemple) et rajoute un ($compteur) à la fin du nom de fichier qui est incrémenté autant de fois que nécessaire.
 J'ai également du résoudre quelques bugs créés par les récentes modifications du code, notamment dans la récupération des infosXMl ou je donnais $champs-> nom _ $champs->correspondance, ce qui créait un conflit quand je voulais récupérer le nom j'ai remplacé "_" dans la concaténation par "->".
 Je vais enfin essayer de me mettre sur la requete Sql des pages afin de les afficher par rang cet après midi.
+Avant ça j'ai rapidement créé une boucle qui permet de vérifier dans toutes les valeurs reçues si la valeur contient une extension d'image (jpeg,jpg,gif,png), 
+"in_array(strtolower(pathinfo($valeurBdd, PATHINFO_EXTENSION)), $tabExtensions)"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzU4NzIxNCwxNjQxOTk4Njc0LDE3Mz
-I2MjExNDQsMTgwNDA5MDMwNiwtNTUxNjcxMTgxLDQ0MTQ1OTI3
-MiwtMTE2MDU5OTA2NSwtMTc4MDc3OTg4NiwtMTY1MzAxMjEzMi
-wtNDkxODE0MjEzLDEwNjgzMTE1NTAsLTEwMTA4Nzk0OTEsLTE2
-MjAwNTYxMjksNDE4NzM2NTYsLTEyMDE0NzM3MDksLTExOTYyMj
-c3MiwtMTQ5NjMwMjAzNCwxODg1MDY3MzI5LDEwNjIxNTUxMzIs
-LTIwNzkwMTc0NjddfQ==
+eyJoaXN0b3J5IjpbLTE5Nzk1ODc4NTIsLTEwMzU4NzIxNCwxNj
+QxOTk4Njc0LDE3MzI2MjExNDQsMTgwNDA5MDMwNiwtNTUxNjcx
+MTgxLDQ0MTQ1OTI3MiwtMTE2MDU5OTA2NSwtMTc4MDc3OTg4Ni
+wtMTY1MzAxMjEzMiwtNDkxODE0MjEzLDEwNjgzMTE1NTAsLTEw
+MTA4Nzk0OTEsLTE2MjAwNTYxMjksNDE4NzM2NTYsLTEyMDE0Nz
+M3MDksLTExOTYyMjc3MiwtMTQ5NjMwMjAzNCwxODg1MDY3MzI5
+LDEwNjIxNTUxMzJdfQ==
 -->
