@@ -146,11 +146,13 @@ Il me reste à réussir à ranger les produits dans 'pages' par rang, je dois re
 
 **Vendredi:** 
 J'ai regardé a nouveau le code que j'ai produit hier et refait des tests. Lorsque je fais une recherche dans un champ et qu'en plus je tri les données selon un autre champ l'ORDER BY n'a pas l'air de fonctionner, la requete récupère bien les produits recherchés par l'utilisateur mais le tri ne marche plus a l'export.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDA5MDMwNiwtNTUxNjcxMTgxLDQ0MT
-Q1OTI3MiwtMTE2MDU5OTA2NSwtMTc4MDc3OTg4NiwtMTY1MzAx
-MjEzMiwtNDkxODE0MjEzLDEwNjgzMTE1NTAsLTEwMTA4Nzk0OT
-EsLTE2MjAwNTYxMjksNDE4NzM2NTYsLTEyMDE0NzM3MDksLTEx
-OTYyMjc3MiwtMTQ5NjMwMjAzNCwxODg1MDY3MzI5LDEwNjIxNT
-UxMzIsLTIwNzkwMTc0NjcsLTExNDQ2MTk5NDBdfQ==
+eyJoaXN0b3J5IjpbNTk3NTgyMTkyLDE4MDQwOTAzMDYsLTU1MT
+Y3MTE4MSw0NDE0NTkyNzIsLTExNjA1OTkwNjUsLTE3ODA3Nzk4
+ODYsLTE2NTMwMTIxMzIsLTQ5MTgxNDIxMywxMDY4MzExNTUwLC
+0xMDEwODc5NDkxLC0xNjIwMDU2MTI5LDQxODczNjU2LC0xMjAx
+NDczNzA5LC0xMTk2MjI3NzIsLTE0OTYzMDIwMzQsMTg4NTA2Nz
+MyOSwxMDYyMTU1MTMyLC0yMDc5MDE3NDY3LC0xMTQ0NjE5OTQw
+XX0=
 -->
