@@ -146,9 +146,9 @@ Il me reste à réussir à ranger les produits dans 'pages' par rang, je dois re
 
 **Vendredi:** 
 J'ai regardé a nouveau le code que j'ai produit hier et refait des tests. Lorsque je fais une recherche dans un champ et qu'en plus je tri les données selon un autre champ l'ORDER BY n'a pas l'air de fonctionner, la requete récupère bien les produits recherchés par l'utilisateur mais le tri ne marche plus a l'export.
-Petite modification également dans l'ajout des fichiers d'export, j'ai rajouté une fonction qui vérifie si un fichier du meme nom existe déjà (au cas ou on fasse plusieurs exports le meme jour avec des recherches par exemple) et rajoute un ($compteur) à la fin du nom de fichier qui est incrémenté chaque fois que l'on réexporte 
+Petite modification également dans l'ajout des fichiers d'export, j'ai rajouté une fonction qui vérifie si un fichier du meme nom existe déjà (au cas ou on fasse plusieurs exports le meme jour avec des recherches par exemple) et rajoute un ($compteur) à la fin du nom de fichier qui est incrémenté autant de fois que nécessaire.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDg5NzY0OSwxODA0MDkwMzA2LC01NT
+eyJoaXN0b3J5IjpbMTczMjYyMTE0NCwxODA0MDkwMzA2LC01NT
 E2NzExODEsNDQxNDU5MjcyLC0xMTYwNTk5MDY1LC0xNzgwNzc5
 ODg2LC0xNjUzMDEyMTMyLC00OTE4MTQyMTMsMTA2ODMxMTU1MC
 wtMTAxMDg3OTQ5MSwtMTYyMDA1NjEyOSw0MTg3MzY1NiwtMTIw
