@@ -153,9 +153,10 @@ Avant ça j'ai rapidement créé une boucle qui permet de vérifier dans toutes 
 "in_array(strtolower(pathinfo($valeurBdd, PATHINFO_EXTENSION)), $tabExtensions)"
 Pathinfo(pathinfo extension) me permet de récupérer l'extension de la valeur donnée, le strtolower est la car php est sensible à la casse, et je regarde si la valeur retournée se situe dans le tableau $tabExentensions qui contient les 4 extensions d'images possibles en bdd.
 Cette boucle me permettra d'injecter le chemin absolu des images dans l'export plutot que juste leur nom, l'utilisateur pourra donc retrouver ces images en ligne avec ces valeurs.
+Il y a de nombreuses facons de faire (il existe d'autres fonctions php, j'aurai pu choisir de regarder la valeur apres la derniere occurence d'un ".", faire une expression régulière..).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxMzI5NDEzLC0xMDM1ODcyMTQsMTY0MT
+eyJoaXN0b3J5IjpbNjk1NzYyNjQ5LC0xMDM1ODcyMTQsMTY0MT
 k5ODY3NCwxNzMyNjIxMTQ0LDE4MDQwOTAzMDYsLTU1MTY3MTE4
 MSw0NDE0NTkyNzIsLTExNjA1OTkwNjUsLTE3ODA3Nzk4ODYsLT
 E2NTMwMTIxMzIsLTQ5MTgxNDIxMywxMDY4MzExNTUwLC0xMDEw
