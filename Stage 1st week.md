@@ -152,13 +152,14 @@ Je vais enfin essayer de me mettre sur la requete Sql des pages afin de les affi
 Avant ça j'ai rapidement créé une boucle qui permet de vérifier dans toutes les valeurs reçues si la valeur contient une extension d'image (jpeg,jpg,gif,png)
 "in_array(strtolower(pathinfo($valeurBdd, PATHINFO_EXTENSION)), $tabExtensions)"
 Pathinfo(pathinfo extension) me permet de récupérer l'extension de la valeur donnée, le strtolower est la car php est sensible à la casse, et je regarde si la valeur retournée se situe dans le tableau $tabExentensions qui contient les 4 extensions d'images possibles en bdd.
-Cette boucle me permettra d'injecter le chemin absolu des images dans l'export
+Cette boucle me permettra d'injecter le chemin absolu des images dans l'export plutot que juste leur nom, l'utilisateur pourra donc retrouver ces images en ligne avec ces valeurs.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NjYxODQyMSwtMTAzNTg3MjE0LDE2ND
-E5OTg2NzQsMTczMjYyMTE0NCwxODA0MDkwMzA2LC01NTE2NzEx
-ODEsNDQxNDU5MjcyLC0xMTYwNTk5MDY1LC0xNzgwNzc5ODg2LC
-0xNjUzMDEyMTMyLC00OTE4MTQyMTMsMTA2ODMxMTU1MCwtMTAx
-MDg3OTQ5MSwtMTYyMDA1NjEyOSw0MTg3MzY1NiwtMTIwMTQ3Mz
-cwOSwtMTE5NjIyNzcyLC0xNDk2MzAyMDM0LDE4ODUwNjczMjks
-MTA2MjE1NTEzMl19
+eyJoaXN0b3J5IjpbNzUxMzI5NDEzLC0xMDM1ODcyMTQsMTY0MT
+k5ODY3NCwxNzMyNjIxMTQ0LDE4MDQwOTAzMDYsLTU1MTY3MTE4
+MSw0NDE0NTkyNzIsLTExNjA1OTkwNjUsLTE3ODA3Nzk4ODYsLT
+E2NTMwMTIxMzIsLTQ5MTgxNDIxMywxMDY4MzExNTUwLC0xMDEw
+ODc5NDkxLC0xNjIwMDU2MTI5LDQxODczNjU2LC0xMjAxNDczNz
+A5LC0xMTk2MjI3NzIsLTE0OTYzMDIwMzQsMTg4NTA2NzMyOSwx
+MDYyMTU1MTMyXX0=
 -->
