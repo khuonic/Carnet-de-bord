@@ -147,12 +147,13 @@ Il me reste à réussir à ranger les produits dans 'pages' par rang, je dois re
 **Vendredi:** 
 J'ai regardé a nouveau le code que j'ai produit hier et refait des tests. Lorsque je fais une recherche dans un champ et qu'en plus je tri les données selon un autre champ l'ORDER BY n'a pas l'air de fonctionner, la requete récupère bien les produits recherchés par l'utilisateur mais le tri ne marche plus a l'export, le tri est fait a chaque fois sur l'idRubrique.
 Petite modification également dans l'ajout des fichiers d'export, j'ai rajouté une fonction qui vérifie si un fichier du meme nom existe déjà (au cas ou on fasse plusieurs exports le meme jour avec des recherches par exemple) et rajoute un ($compteur) à la fin du nom de fichier qui est incrémenté autant de fois que nécessaire.
-J'ai également du résoudre quelques bugs créés par les récentes modifications du code, notamment dans la récupération des infosXMl ou je donnais $champs-> nom _ $champs->correspondance, ce qui créait un conflit quand je voulais récupérer le nom j'ai remplacé "_" dans la concaténation par "->".
+J'ai également du résoudre quelques bugs créés par les récentes modifications du code, notamment dans la récupération des infosXMl ou je donnais $champs->nom _       correspondance, ce qui créait un conflit quand je voulais récupérer le nom j'ai remplacé "_" dans la concaténation par "->".
 Je vais enfin essayer de me mettre sur la requete Sql des pages afin de les afficher par rang cet après midi.
 Avant ça j'ai rapidement créé une boucle qui permet de vérifier dans toutes les valeurs reçues si la valeur contient une extension d'image (jpeg,jpg,gif,png)
 "in_array(strtolower(pathinfo($valeurBdd, PATHINFO_EXTENSION)), $tabExtensions)"
+Pathinfo(pathinfo extension) me permet de récupérer l'extension de la valeur donnée, le strto
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTU4NDg1NiwtMTAzNTg3MjE0LDE2ND
+eyJoaXN0b3J5IjpbLTM1NjQ2NTUxNywtMTAzNTg3MjE0LDE2ND
 E5OTg2NzQsMTczMjYyMTE0NCwxODA0MDkwMzA2LC01NTE2NzEx
 ODEsNDQxNDU5MjcyLC0xMTYwNTk5MDY1LC0xNzgwNzc5ODg2LC
 0xNjUzMDEyMTMyLC00OTE4MTQyMTMsMTA2ODMxMTU1MCwtMTAx
