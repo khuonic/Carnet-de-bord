@@ -151,9 +151,10 @@ J'ai également du résoudre quelques bugs créés par les récentes modificatio
 Je vais enfin essayer de me mettre sur la requete Sql des pages afin de les afficher par rang cet après midi.
 Avant ça j'ai rapidement créé une boucle qui permet de vérifier dans toutes les valeurs reçues si la valeur contient une extension d'image (jpeg,jpg,gif,png)
 "in_array(strtolower(pathinfo($valeurBdd, PATHINFO_EXTENSION)), $tabExtensions)"
-Pathinfo(pathinfo extension) me permet de récupérer l'extension de la valeur donnée, le strto
+Pathinfo(pathinfo extension) me permet de récupérer l'extension de la valeur donnée, le strtolower est la car php est sensible à la casse, et je regarde si la valeur retournée se situe dans le tableau $tabExentensions qui contient les 4 extensions d'images possibles en bdd.
+Cette boucle me permettra d'injecter le chemin absolu des images dans l'export
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjQ2NTUxNywtMTAzNTg3MjE0LDE2ND
+eyJoaXN0b3J5IjpbMTI3NjYxODQyMSwtMTAzNTg3MjE0LDE2ND
 E5OTg2NzQsMTczMjYyMTE0NCwxODA0MDkwMzA2LC01NTE2NzEx
 ODEsNDQxNDU5MjcyLC0xMTYwNTk5MDY1LC0xNzgwNzc5ODg2LC
 0xNjUzMDEyMTMyLC00OTE4MTQyMTMsMTA2ODMxMTU1MCwtMTAx
