@@ -145,9 +145,9 @@ J'ai rajouté un GROUP BY idProduit dans la requête sql pour qu'il n'y ai pas d
 Il me reste à réussir à ranger les produits dans 'pages' par rang, je dois retravailler la requete Sql.
 
 **Vendredi:** 
-J'ai regardé a nouveau le code que j'ai produit hier et refait des tests. Lorsque je fais une recherche
+J'ai regardé a nouveau le code que j'ai produit hier et refait des tests. Lorsque je fais une recherche dans un champ et qu'en plus je tri les données selon un autre champ l'ORDER BY n'a pas l'air de fonctionner, la requete récupère bien les produits recherchés par l'utilisateur mais le tri ne marche plus a l'export.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTEzMTEzNCwtNTUxNjcxMTgxLDQ0MT
+eyJoaXN0b3J5IjpbMTgwNDA5MDMwNiwtNTUxNjcxMTgxLDQ0MT
 Q1OTI3MiwtMTE2MDU5OTA2NSwtMTc4MDc3OTg4NiwtMTY1MzAx
 MjEzMiwtNDkxODE0MjEzLDEwNjgzMTE1NTAsLTEwMTA4Nzk0OT
 EsLTE2MjAwNTYxMjksNDE4NzM2NTYsLTEyMDE0NzM3MDksLTEx
