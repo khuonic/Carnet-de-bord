@@ -147,9 +147,9 @@ Il me reste à réussir à ranger les produits dans 'pages' par rang, je dois re
 **Vendredi:** 
 J'ai regardé a nouveau le code que j'ai produit hier et refait des tests. Lorsque je fais une recherche dans un champ et qu'en plus je tri les données selon un autre champ l'ORDER BY n'a pas l'air de fonctionner, la requete récupère bien les produits recherchés par l'utilisateur mais le tri ne marche plus a l'export, le tri est fait a chaque fois sur l'idRubrique.
 Petite modification également dans l'ajout des fichiers d'export, j'ai rajouté une fonction qui vérifie si un fichier du meme nom existe déjà (au cas ou on fasse plusieurs exports le meme jour avec des recherches par exemple) et rajoute un ($compteur) à la fin du nom de fichier qui est incrémenté autant de fois que nécessaire.
-
+J'ai également du résoudre quelques bugs créés par les récentes modifications du code, notamment dans la récupération des infosXMl ou je donnais $champs-> nom _ $champs->correspondance, ce qui créait un conflit quand je voulais récupérer le nom j'ai remplacé "_" dans la concaténation par "->"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzY1MzUwNCwxNjQxOTk4Njc0LDE3Mz
+eyJoaXN0b3J5IjpbMTE5MTU2MTUyNywxNjQxOTk4Njc0LDE3Mz
 I2MjExNDQsMTgwNDA5MDMwNiwtNTUxNjcxMTgxLDQ0MTQ1OTI3
 MiwtMTE2MDU5OTA2NSwtMTc4MDc3OTg4NiwtMTY1MzAxMjEzMi
 wtNDkxODE0MjEzLDEwNjgzMTE1NTAsLTEwMTA4Nzk0OTEsLTE2
