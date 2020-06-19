@@ -145,14 +145,14 @@ J'ai rajouté un GROUP BY idProduit dans la requête sql pour qu'il n'y ai pas d
 Il me reste à réussir à ranger les produits dans 'pages' par rang, je dois retravailler la requete Sql.
 
 **Vendredi:** 
-J'ai regardé a nouveau le code que j'ai produit hier et refait des tests. Lorsque je fais une recherche dans un champ et qu'en plus je tri les données selon un autre champ l'ORDER BY n'a pas l'air de fonctionner, la requete récupère bien les produits recherchés par l'utilisateur mais le tri ne marche plus a l'export.
+J'ai regardé a nouveau le code que j'ai produit hier et refait des tests. Lorsque je fais une recherche dans un champ et qu'en plus je tri les données selon un autre champ l'ORDER BY n'a pas l'air de fonctionner, la requete récupère bien les produits recherchés par l'utilisateur mais le tri ne marche plus a l'export, le tri est fait a chaque fois sur l'idRubrique.
 Petite modification également dans l'ajout des fichiers d'export, j'ai rajouté une fonction qui vérifie si un fichier du meme nom existe déjà (au cas ou on fasse plusieurs exports le meme jour avec des recherches par exemple) et rajoute un ($compteur) à la fin du nom de fichier qui est incrémenté autant de fois que nécessaire.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjYyMTE0NCwxODA0MDkwMzA2LC01NT
-E2NzExODEsNDQxNDU5MjcyLC0xMTYwNTk5MDY1LC0xNzgwNzc5
-ODg2LC0xNjUzMDEyMTMyLC00OTE4MTQyMTMsMTA2ODMxMTU1MC
-wtMTAxMDg3OTQ5MSwtMTYyMDA1NjEyOSw0MTg3MzY1NiwtMTIw
-MTQ3MzcwOSwtMTE5NjIyNzcyLC0xNDk2MzAyMDM0LDE4ODUwNj
-czMjksMTA2MjE1NTEzMiwtMjA3OTAxNzQ2NywtMTE0NDYxOTk0
-MF19
+eyJoaXN0b3J5IjpbMTY0MTk5ODY3NCwxNzMyNjIxMTQ0LDE4MD
+QwOTAzMDYsLTU1MTY3MTE4MSw0NDE0NTkyNzIsLTExNjA1OTkw
+NjUsLTE3ODA3Nzk4ODYsLTE2NTMwMTIxMzIsLTQ5MTgxNDIxMy
+wxMDY4MzExNTUwLC0xMDEwODc5NDkxLC0xNjIwMDU2MTI5LDQx
+ODczNjU2LC0xMjAxNDczNzA5LC0xMTk2MjI3NzIsLTE0OTYzMD
+IwMzQsMTg4NTA2NzMyOSwxMDYyMTU1MTMyLC0yMDc5MDE3NDY3
+LC0xMTQ0NjE5OTQwXX0=
 -->
