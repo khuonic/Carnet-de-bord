@@ -159,9 +159,9 @@ Il y a de nombreuses facons de faire (il existe d'autres fonctions php, j'aurai 
 
 **Lundi:**  Je travaille sur la requete pour classer les pages par rang et je commence a jeter un coup d'oeil sur les fonctions qui permettraient de créer un bouton pour importer les données.
 Je vais devoir en discuter avec nicolas pour décider d'un 'cahier des charges' sur l'import, et voir également les rangs des pages.
-RIen réussi a fa
+RIen réussi a obtenir aujourd'hui
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI0ODI1OTIsNjk3OTU3NTY5LC0xOT
+eyJoaXN0b3J5IjpbLTEwNDIyMTg2MjEsNjk3OTU3NTY5LC0xOT
 IyODgyNDA1LDEyMjI0Nzc4MzYsNjk1NzYyNjQ5LC0xMDM1ODcy
 MTQsMTY0MTk5ODY3NCwxNzMyNjIxMTQ0LDE4MDQwOTAzMDYsLT
 U1MTY3MTE4MSw0NDE0NTkyNzIsLTExNjA1OTkwNjUsLTE3ODA3
