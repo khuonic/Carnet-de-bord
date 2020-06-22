@@ -155,13 +155,15 @@ Pathinfo(pathinfo extension) me permet de récupérer l'extension de la valeur d
 Cette boucle me permettra d'injecter le chemin absolu des images dans l'export plutot que juste leur nom, l'utilisateur pourra donc retrouver ces images en ligne avec ces valeurs.
 Il y a de nombreuses facons de faire (il existe d'autres fonctions php, j'aurai pu choisir de regarder la valeur apres la derniere occurence d'un ".", faire une expression régulière..).
 
+**Semaine 7**
 
+**Lundi:** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2NTkzMjIzLDY5NTc2MjY0OSwtMTAzNT
-g3MjE0LDE2NDE5OTg2NzQsMTczMjYyMTE0NCwxODA0MDkwMzA2
-LC01NTE2NzExODEsNDQxNDU5MjcyLC0xMTYwNTk5MDY1LC0xNz
-gwNzc5ODg2LC0xNjUzMDEyMTMyLC00OTE4MTQyMTMsMTA2ODMx
-MTU1MCwtMTAxMDg3OTQ5MSwtMTYyMDA1NjEyOSw0MTg3MzY1Ni
-wtMTIwMTQ3MzcwOSwtMTE5NjIyNzcyLC0xNDk2MzAyMDM0LDE4
-ODUwNjczMjldfQ==
+eyJoaXN0b3J5IjpbMTIyMjQ3NzgzNiw2OTU3NjI2NDksLTEwMz
+U4NzIxNCwxNjQxOTk4Njc0LDE3MzI2MjExNDQsMTgwNDA5MDMw
+NiwtNTUxNjcxMTgxLDQ0MTQ1OTI3MiwtMTE2MDU5OTA2NSwtMT
+c4MDc3OTg4NiwtMTY1MzAxMjEzMiwtNDkxODE0MjEzLDEwNjgz
+MTE1NTAsLTEwMTA4Nzk0OTEsLTE2MjAwNTYxMjksNDE4NzM2NT
+YsLTEyMDE0NzM3MDksLTExOTYyMjc3MiwtMTQ5NjMwMjAzNCwx
+ODg1MDY3MzI5XX0=
 -->
