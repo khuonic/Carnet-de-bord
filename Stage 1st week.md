@@ -157,13 +157,13 @@ Il y a de nombreuses facons de faire (il existe d'autres fonctions php, j'aurai 
 
 **Semaine 7**
 
-**Lundi:**  Je travaille sur la requete po
+**Lundi:**  Je travaille sur la requete pour classer les pages par rang et je commence a jeter un coup d'oeil sur les fonctions qui permettraient de créer un bouton pour importer les données.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTUzOTY1NiwxMjIyNDc3ODM2LDY5NT
-c2MjY0OSwtMTAzNTg3MjE0LDE2NDE5OTg2NzQsMTczMjYyMTE0
-NCwxODA0MDkwMzA2LC01NTE2NzExODEsNDQxNDU5MjcyLC0xMT
-YwNTk5MDY1LC0xNzgwNzc5ODg2LC0xNjUzMDEyMTMyLC00OTE4
-MTQyMTMsMTA2ODMxMTU1MCwtMTAxMDg3OTQ5MSwtMTYyMDA1Nj
-EyOSw0MTg3MzY1NiwtMTIwMTQ3MzcwOSwtMTE5NjIyNzcyLC0x
-NDk2MzAyMDM0XX0=
+eyJoaXN0b3J5IjpbLTE5MjI4ODI0MDUsMTIyMjQ3NzgzNiw2OT
+U3NjI2NDksLTEwMzU4NzIxNCwxNjQxOTk4Njc0LDE3MzI2MjEx
+NDQsMTgwNDA5MDMwNiwtNTUxNjcxMTgxLDQ0MTQ1OTI3MiwtMT
+E2MDU5OTA2NSwtMTc4MDc3OTg4NiwtMTY1MzAxMjEzMiwtNDkx
+ODE0MjEzLDEwNjgzMTE1NTAsLTEwMTA4Nzk0OTEsLTE2MjAwNT
+YxMjksNDE4NzM2NTYsLTEyMDE0NzM3MDksLTExOTYyMjc3Miwt
+MTQ5NjMwMjAzNF19
 -->
