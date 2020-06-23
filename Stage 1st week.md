@@ -162,9 +162,10 @@ Je vais devoir en discuter avec nicolas pour décider d'un 'cahier des charges' 
 RIen réussi a obtenir aujourd'hui
 
 **Mardi:** 
-J'ai trava
+J'ai travaillé avec Nicolas ce matin sur pas mal de petites choses, on a pu corrigé des bugs que j'avais découvert dans le backOffice. 
+On a modifié l'envoi des $params['options']également, avec l'ajout d'un libellé qui contient 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDExOTA3OSwtNzgyNjY5ODQ4LC0xMD
+eyJoaXN0b3J5IjpbMTg2NzkwOTk0NiwtNzgyNjY5ODQ4LC0xMD
 QyMjE4NjIxLDY5Nzk1NzU2OSwtMTkyMjg4MjQwNSwxMjIyNDc3
 ODM2LDY5NTc2MjY0OSwtMTAzNTg3MjE0LDE2NDE5OTg2NzQsMT
 czMjYyMTE0NCwxODA0MDkwMzA2LC01NTE2NzExODEsNDQxNDU5
