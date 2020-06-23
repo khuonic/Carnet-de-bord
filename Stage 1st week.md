@@ -165,13 +165,13 @@ RIen réussi a obtenir aujourd'hui
 J'ai travaillé avec Nicolas ce matin sur pas mal de petites choses, on a pu corrigé des bugs que j'avais découvert dans le backOffice. 
 On a modifié l'envoi des $params['options']également, avec l'ajout d'un libellé qui contient le data-addName présent dans le champ, qui va me servir pour le nom du fichier.
 Le type de fichier a été retiré des options et est juste dans $params['type'] maintenant. Je vais donc devoir modifié le dev pour que l'export dans les templates remarche comme avant mais avec les nouveaux paramètres, de même pour le nom de fichier.
-Il a également modifié la requête sql pour les pages, afin d'envoyer le rang des parents et enfants comme il faut, il me reste plus qu'a boucler dessus co
+Il a également modifié la requête sql pour les pages, afin d'envoyer le rang des parents et enfants comme il faut, il me reste plus qu'a boucler dessus comme je le fais pour les images ou billets.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMjcxMjUwNywtNzgyNjY5ODQ4LC0xMD
-QyMjE4NjIxLDY5Nzk1NzU2OSwtMTkyMjg4MjQwNSwxMjIyNDc3
-ODM2LDY5NTc2MjY0OSwtMTAzNTg3MjE0LDE2NDE5OTg2NzQsMT
-czMjYyMTE0NCwxODA0MDkwMzA2LC01NTE2NzExODEsNDQxNDU5
-MjcyLC0xMTYwNTk5MDY1LC0xNzgwNzc5ODg2LC0xNjUzMDEyMT
-MyLC00OTE4MTQyMTMsMTA2ODMxMTU1MCwtMTAxMDg3OTQ5MSwt
-MTYyMDA1NjEyOV19
+eyJoaXN0b3J5IjpbLTEzMjI0MTgzNTYsLTc4MjY2OTg0OCwtMT
+A0MjIxODYyMSw2OTc5NTc1NjksLTE5MjI4ODI0MDUsMTIyMjQ3
+NzgzNiw2OTU3NjI2NDksLTEwMzU4NzIxNCwxNjQxOTk4Njc0LD
+E3MzI2MjExNDQsMTgwNDA5MDMwNiwtNTUxNjcxMTgxLDQ0MTQ1
+OTI3MiwtMTE2MDU5OTA2NSwtMTc4MDc3OTg4NiwtMTY1MzAxMj
+EzMiwtNDkxODE0MjEzLDEwNjgzMTE1NTAsLTEwMTA4Nzk0OTEs
+LTE2MjAwNTYxMjldfQ==
 -->
