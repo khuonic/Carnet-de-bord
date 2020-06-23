@@ -166,12 +166,14 @@ J'ai travaillé avec Nicolas ce matin sur pas mal de petites choses, on a pu cor
 On a modifié l'envoi des $params['options']également, avec l'ajout d'un libellé qui contient le data-addName présent dans le champ, qui va me servir pour le nom du fichier.
 Le type de fichier a été retiré des options et est juste dans $params['type'] maintenant. Je vais donc devoir modifié le dev pour que l'export dans les templates remarche comme avant mais avec les nouveaux paramètres, de même pour le nom de fichier.
 Il a également modifié la requête sql pour les pages, afin d'envoyer le rang des parents et enfants comme il faut, il me reste plus qu'a boucler dessus comme je le fais pour les images ou billets.
+J'ai mis du temps mais j'ai réussi a boucler dessus pour afficher correctement les pages.
+J'ai également modifié le dev suite aux changements effectués ce matin, et j'ai pris un temps pour commenter le code un peu mieux.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjI0MTgzNTYsLTc4MjY2OTg0OCwtMT
-A0MjIxODYyMSw2OTc5NTc1NjksLTE5MjI4ODI0MDUsMTIyMjQ3
-NzgzNiw2OTU3NjI2NDksLTEwMzU4NzIxNCwxNjQxOTk4Njc0LD
-E3MzI2MjExNDQsMTgwNDA5MDMwNiwtNTUxNjcxMTgxLDQ0MTQ1
-OTI3MiwtMTE2MDU5OTA2NSwtMTc4MDc3OTg4NiwtMTY1MzAxMj
-EzMiwtNDkxODE0MjEzLDEwNjgzMTE1NTAsLTEwMTA4Nzk0OTEs
-LTE2MjAwNTYxMjldfQ==
+eyJoaXN0b3J5IjpbLTE0MTE5MjkxMTYsLTEzMjI0MTgzNTYsLT
+c4MjY2OTg0OCwtMTA0MjIxODYyMSw2OTc5NTc1NjksLTE5MjI4
+ODI0MDUsMTIyMjQ3NzgzNiw2OTU3NjI2NDksLTEwMzU4NzIxNC
+wxNjQxOTk4Njc0LDE3MzI2MjExNDQsMTgwNDA5MDMwNiwtNTUx
+NjcxMTgxLDQ0MTQ1OTI3MiwtMTE2MDU5OTA2NSwtMTc4MDc3OT
+g4NiwtMTY1MzAxMjEzMiwtNDkxODE0MjEzLDEwNjgzMTE1NTAs
+LTEwMTA4Nzk0OTFdfQ==
 -->
