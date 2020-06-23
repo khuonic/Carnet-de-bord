@@ -161,13 +161,14 @@ Il y a de nombreuses facons de faire (il existe d'autres fonctions php, j'aurai 
 Je vais devoir en discuter avec nicolas pour décider d'un 'cahier des charges' sur l'import, et voir également les rangs des pages.
 RIen réussi a obtenir aujourd'hui
 
-**Mardi:**
+**Mardi:** 
+J'ai trava
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjY2OTg0OCwtMTA0MjIxODYyMSw2OT
-c5NTc1NjksLTE5MjI4ODI0MDUsMTIyMjQ3NzgzNiw2OTU3NjI2
-NDksLTEwMzU4NzIxNCwxNjQxOTk4Njc0LDE3MzI2MjExNDQsMT
-gwNDA5MDMwNiwtNTUxNjcxMTgxLDQ0MTQ1OTI3MiwtMTE2MDU5
-OTA2NSwtMTc4MDc3OTg4NiwtMTY1MzAxMjEzMiwtNDkxODE0Mj
-EzLDEwNjgzMTE1NTAsLTEwMTA4Nzk0OTEsLTE2MjAwNTYxMjks
-NDE4NzM2NTZdfQ==
+eyJoaXN0b3J5IjpbMTU5MDExOTA3OSwtNzgyNjY5ODQ4LC0xMD
+QyMjE4NjIxLDY5Nzk1NzU2OSwtMTkyMjg4MjQwNSwxMjIyNDc3
+ODM2LDY5NTc2MjY0OSwtMTAzNTg3MjE0LDE2NDE5OTg2NzQsMT
+czMjYyMTE0NCwxODA0MDkwMzA2LC01NTE2NzExODEsNDQxNDU5
+MjcyLC0xMTYwNTk5MDY1LC0xNzgwNzc5ODg2LC0xNjUzMDEyMT
+MyLC00OTE4MTQyMTMsMTA2ODMxMTU1MCwtMTAxMDg3OTQ5MSwt
+MTYyMDA1NjEyOV19
 -->
