@@ -171,12 +171,13 @@ J'ai également modifié le dev suite aux changements effectués ce matin, et j'
 
 **Mercredi :** 
 Réglé un petit défaut dans le nom fichier avec une ternaire, ($rubriqueNom ? "_" : '') afin de concaténer un "_" dans le nom de fichier seulement si il y a un nom de rubrique, sinon rien, ça empêche d'avoir deux "__" a la suite dans le nom. Problème à signaler également a nicolas dans l'envoi de l'ajax, le libellé semble etre envoyé quoi qu'il arrive, or on le veut que si les options sont cochées, sinon je peux faire une condition si la valeur est différente de 0 je prends en compte le libellé.
+J'ai réglé un autr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjgzNjcwMywtNTkyNDMyNzQyLDYyMj
-k3MDU0MywtMTQxMTkyOTExNiwtMTMyMjQxODM1NiwtNzgyNjY5
-ODQ4LC0xMDQyMjE4NjIxLDY5Nzk1NzU2OSwtMTkyMjg4MjQwNS
-wxMjIyNDc3ODM2LDY5NTc2MjY0OSwtMTAzNTg3MjE0LDE2NDE5
-OTg2NzQsMTczMjYyMTE0NCwxODA0MDkwMzA2LC01NTE2NzExOD
-EsNDQxNDU5MjcyLC0xMTYwNTk5MDY1LC0xNzgwNzc5ODg2LC0x
-NjUzMDEyMTMyXX0=
+eyJoaXN0b3J5IjpbLTE4NzMyMDMxMzIsLTMyNjgzNjcwMywtNT
+kyNDMyNzQyLDYyMjk3MDU0MywtMTQxMTkyOTExNiwtMTMyMjQx
+ODM1NiwtNzgyNjY5ODQ4LC0xMDQyMjE4NjIxLDY5Nzk1NzU2OS
+wtMTkyMjg4MjQwNSwxMjIyNDc3ODM2LDY5NTc2MjY0OSwtMTAz
+NTg3MjE0LDE2NDE5OTg2NzQsMTczMjYyMTE0NCwxODA0MDkwMz
+A2LC01NTE2NzExODEsNDQxNDU5MjcyLC0xMTYwNTk5MDY1LC0x
+NzgwNzc5ODg2XX0=
 -->
