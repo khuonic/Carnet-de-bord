@@ -171,13 +171,13 @@ J'ai également modifié le dev suite aux changements effectués ce matin, et j'
 
 **Mercredi :** 
 Réglé un petit défaut dans le nom fichier avec une ternaire, ($rubriqueNom ? "_" : '') afin de concaténer un "_" dans le nom de fichier seulement si il y a un nom de rubrique, sinon rien, ça empêche d'avoir deux "__" a la suite dans le nom. Problème à signaler également a nicolas dans l'envoi de l'ajax, le libellé semble etre envoyé quoi qu'il arrive, or on le veut que si les options sont cochées, sinon je peux faire une condition si la valeur est différente de 0 je prends en compte le libellé.
-J'ai réglé un autre soucis que j'ai découvert ce matin, en effet j'avais rajouté un groupb by idProduit dans la requete sql des produits pour empecher le doublon de produit lorsqu'il y avait une recherche active, le problème c'est que du coup sans la recherche active ca le faisait aussi et donc cela pouvait ne pas exporter certains billets si on se trouvait dans la rubrique 
+J'ai réglé un autre soucis que j'ai découvert ce matin, en effet j'avais rajouté un groupb by idProduit dans la requete sql des produits pour empecher le doublon de produit lorsqu'il y avait une recherche active, le problème c'est que du coup sans la recherche active ca le faisait aussi et donc cela pouvait ne pas exporter certains billets si on se trouvait dans la rubrique ou le billet était compté comme un billet dupliqué, donc non récupéré dans la requete, j'ai donc mis une condition sur le group by qui n'est envoyé dans la requete que lorsque qu'il y a une recherche active.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzE4NDI5OCwtMzI2ODM2NzAzLC01OT
-I0MzI3NDIsNjIyOTcwNTQzLC0xNDExOTI5MTE2LC0xMzIyNDE4
-MzU2LC03ODI2Njk4NDgsLTEwNDIyMTg2MjEsNjk3OTU3NTY5LC
-0xOTIyODgyNDA1LDEyMjI0Nzc4MzYsNjk1NzYyNjQ5LC0xMDM1
-ODcyMTQsMTY0MTk5ODY3NCwxNzMyNjIxMTQ0LDE4MDQwOTAzMD
-YsLTU1MTY3MTE4MSw0NDE0NTkyNzIsLTExNjA1OTkwNjUsLTE3
-ODA3Nzk4ODZdfQ==
+eyJoaXN0b3J5IjpbMzc4NDc4MTcyLC0zMjY4MzY3MDMsLTU5Mj
+QzMjc0Miw2MjI5NzA1NDMsLTE0MTE5MjkxMTYsLTEzMjI0MTgz
+NTYsLTc4MjY2OTg0OCwtMTA0MjIxODYyMSw2OTc5NTc1NjksLT
+E5MjI4ODI0MDUsMTIyMjQ3NzgzNiw2OTU3NjI2NDksLTEwMzU4
+NzIxNCwxNjQxOTk4Njc0LDE3MzI2MjExNDQsMTgwNDA5MDMwNi
+wtNTUxNjcxMTgxLDQ0MTQ1OTI3MiwtMTE2MDU5OTA2NSwtMTc4
+MDc3OTg4Nl19
 -->
