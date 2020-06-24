@@ -173,13 +173,13 @@ J'ai également modifié le dev suite aux changements effectués ce matin, et j'
 Réglé un petit défaut dans le nom fichier avec une ternaire, ($rubriqueNom ? "_" : '') afin de concaténer un "_" dans le nom de fichier seulement si il y a un nom de rubrique, sinon rien, ça empêche d'avoir deux "__" a la suite dans le nom. Problème à signaler également a nicolas dans l'envoi de l'ajax, le libellé semble etre envoyé quoi qu'il arrive, or on le veut que si les options sont cochées, sinon je peux faire une condition si la valeur est différente de 0 je prends en compte le libellé.
 J'ai réglé un autre soucis que j'ai découvert ce matin, en effet j'avais rajouté un groupb by idProduit dans la requete sql des produits pour empecher le doublon de produit lorsqu'il y avait une recherche active, le problème c'est que du coup sans la recherche active ca le faisait aussi et donc cela pouvait ne pas exporter certains billets si on se trouvait dans la rubrique ou le billet était compté comme un billet dupliqué, donc non récupéré dans la requete, j'ai donc mis une condition sur le group by qui n'est envoyé dans la requete que lorsque qu'il y a une recherche active. Il reste toujours le soucis du 'tri' qui ne marche pas dans l'export s'il l'export est effectué sur une recherche active.
 L'order by marche bien, les produits récupérés dans la requete sont bien triés selon le choix de l'utilisateur, c'est seulement avec la fonction récupèreListeProduits que l'ordre est changé, il faut que je trouve un moyen de changer ca.
-Assez content j'ai rapidement trouvé un moyen de régler ce probème, avec deux fonctions php, je pose une condition (si la recherche est active et le tri actif) je récupère le tableau contenant les valeurs de la colonne a trier (array_column(array, $params
+Assez content j'ai rapidement trouvé un moyen de régler ce probème, avec deux fonctions php, je pose une condition (si la recherche est active et le tri actif) je récupère le tableau contenant les valeurs de la colonne a trier (array_column(array, $params['colonneTrie'])) et ensuite je regarde le sens du tri (0 = ASC,  1 = DESC) et j'utilise la function php array_multisort avec comme paramètre les colonnes triées au préalable, le sens du tri, et le tableau de résultats.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDU3NzYxOSwtMTkwMDUyNDE5NSwxMz
-I4NzU5OTQ3LC0zMjY4MzY3MDMsLTU5MjQzMjc0Miw2MjI5NzA1
-NDMsLTE0MTE5MjkxMTYsLTEzMjI0MTgzNTYsLTc4MjY2OTg0OC
-wtMTA0MjIxODYyMSw2OTc5NTc1NjksLTE5MjI4ODI0MDUsMTIy
-MjQ3NzgzNiw2OTU3NjI2NDksLTEwMzU4NzIxNCwxNjQxOTk4Nj
-c0LDE3MzI2MjExNDQsMTgwNDA5MDMwNiwtNTUxNjcxMTgxLDQ0
-MTQ1OTI3Ml19
+eyJoaXN0b3J5IjpbMjkxMzk4NTE2LC0xOTAwNTI0MTk1LDEzMj
+g3NTk5NDcsLTMyNjgzNjcwMywtNTkyNDMyNzQyLDYyMjk3MDU0
+MywtMTQxMTkyOTExNiwtMTMyMjQxODM1NiwtNzgyNjY5ODQ4LC
+0xMDQyMjE4NjIxLDY5Nzk1NzU2OSwtMTkyMjg4MjQwNSwxMjIy
+NDc3ODM2LDY5NTc2MjY0OSwtMTAzNTg3MjE0LDE2NDE5OTg2Nz
+QsMTczMjYyMTE0NCwxODA0MDkwMzA2LC01NTE2NzExODEsNDQx
+NDU5MjcyXX0=
 -->
