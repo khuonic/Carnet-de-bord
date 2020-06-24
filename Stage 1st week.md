@@ -168,12 +168,14 @@ Le type de fichier a été retiré des options et est juste dans $params['type']
 Il a également modifié la requête sql pour les pages, afin d'envoyer le rang des parents et enfants comme il faut, il me reste plus qu'a boucler dessus comme je le fais pour les images ou billets.
 J'ai mis du temps mais j'ai réussi a boucler dessus pour afficher correctement les pages.
 J'ai également modifié le dev suite aux changements effectués ce matin, et j'ai pris un temps pour commenter le code un peu mieux.
+
+Mercredi : 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTE5MjkxMTYsLTEzMjI0MTgzNTYsLT
-c4MjY2OTg0OCwtMTA0MjIxODYyMSw2OTc5NTc1NjksLTE5MjI4
-ODI0MDUsMTIyMjQ3NzgzNiw2OTU3NjI2NDksLTEwMzU4NzIxNC
-wxNjQxOTk4Njc0LDE3MzI2MjExNDQsMTgwNDA5MDMwNiwtNTUx
-NjcxMTgxLDQ0MTQ1OTI3MiwtMTE2MDU5OTA2NSwtMTc4MDc3OT
-g4NiwtMTY1MzAxMjEzMiwtNDkxODE0MjEzLDEwNjgzMTE1NTAs
-LTEwMTA4Nzk0OTFdfQ==
+eyJoaXN0b3J5IjpbLTIwMjQ5NjMwODksLTE0MTE5MjkxMTYsLT
+EzMjI0MTgzNTYsLTc4MjY2OTg0OCwtMTA0MjIxODYyMSw2OTc5
+NTc1NjksLTE5MjI4ODI0MDUsMTIyMjQ3NzgzNiw2OTU3NjI2ND
+ksLTEwMzU4NzIxNCwxNjQxOTk4Njc0LDE3MzI2MjExNDQsMTgw
+NDA5MDMwNiwtNTUxNjcxMTgxLDQ0MTQ1OTI3MiwtMTE2MDU5OT
+A2NSwtMTc4MDc3OTg4NiwtMTY1MzAxMjEzMiwtNDkxODE0MjEz
+LDEwNjgzMTE1NTBdfQ==
 -->
