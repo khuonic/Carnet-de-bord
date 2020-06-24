@@ -175,13 +175,13 @@ J'ai réglé un autre soucis que j'ai découvert ce matin, en effet j'avais rajo
 L'order by marche bien, les produits récupérés dans la requete sont bien triés selon le choix de l'utilisateur, c'est seulement avec la fonction récupèreListeProduits que l'ordre est changé, il faut que je trouve un moyen de changer ca.
 Assez content j'ai rapidement trouvé un moyen de régler ce probème, avec deux fonctions php, je pose une condition (si la recherche est active et le tri actif) je récupère le tableau contenant les valeurs de la colonne a trier (array_column(array, $params['colonneTrie'])) et ensuite je regarde le sens du tri (0 = ASC,  1 = DESC) et j'utilise la function php array_multisort avec comme paramètre les colonnes triées au préalable, le sens du tri, et le tableau de résultats.
 Rajouté la php doc pour chaque fonction pour rendre le code plus lisible.
-J'essaye aussi
+J'essaye aussi d'envoyer le lien absolu des images si images il y a dans la requete retournée.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDQ4NTE3MiwxMzA4OTI4NDQwLDI5MT
-M5ODUxNiwtMTkwMDUyNDE5NSwxMzI4NzU5OTQ3LC0zMjY4MzY3
-MDMsLTU5MjQzMjc0Miw2MjI5NzA1NDMsLTE0MTE5MjkxMTYsLT
-EzMjI0MTgzNTYsLTc4MjY2OTg0OCwtMTA0MjIxODYyMSw2OTc5
-NTc1NjksLTE5MjI4ODI0MDUsMTIyMjQ3NzgzNiw2OTU3NjI2ND
-ksLTEwMzU4NzIxNCwxNjQxOTk4Njc0LDE3MzI2MjExNDQsMTgw
-NDA5MDMwNl19
+eyJoaXN0b3J5IjpbNzQwNTk1MjYwLDEzMDg5Mjg0NDAsMjkxMz
+k4NTE2LC0xOTAwNTI0MTk1LDEzMjg3NTk5NDcsLTMyNjgzNjcw
+MywtNTkyNDMyNzQyLDYyMjk3MDU0MywtMTQxMTkyOTExNiwtMT
+MyMjQxODM1NiwtNzgyNjY5ODQ4LC0xMDQyMjE4NjIxLDY5Nzk1
+NzU2OSwtMTkyMjg4MjQwNSwxMjIyNDc3ODM2LDY5NTc2MjY0OS
+wtMTAzNTg3MjE0LDE2NDE5OTg2NzQsMTczMjYyMTE0NCwxODA0
+MDkwMzA2XX0=
 -->
