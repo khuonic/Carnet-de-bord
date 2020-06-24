@@ -170,13 +170,13 @@ J'ai mis du temps mais j'ai réussi a boucler dessus pour afficher correctement 
 J'ai également modifié le dev suite aux changements effectués ce matin, et j'ai pris un temps pour commenter le code un peu mieux.
 
 **Mercredi :** 
-Réglé un petit défaut dans le nom fichier avec une ternaire, ($rubriqueNom ? '_' : '') afin de concaténer un "_" dans le nom de fichier seulement si il y a un nom de rubrique, sinon rien, ça empêche d'avoir deux "__" a la suite dans le nom.
+Réglé un petit défaut dans le nom fichier avec une ternaire, ($rubriqueNom ? "_" : '') afin de concaténer un "_" dans le nom de fichier seulement si il y a un nom de rubrique, sinon rien, ça empêche d'avoir deux "__" a la suite dans le nom.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTUzNzQ0Myw2MjI5NzA1NDMsLTE0MT
-E5MjkxMTYsLTEzMjI0MTgzNTYsLTc4MjY2OTg0OCwtMTA0MjIx
-ODYyMSw2OTc5NTc1NjksLTE5MjI4ODI0MDUsMTIyMjQ3NzgzNi
-w2OTU3NjI2NDksLTEwMzU4NzIxNCwxNjQxOTk4Njc0LDE3MzI2
-MjExNDQsMTgwNDA5MDMwNiwtNTUxNjcxMTgxLDQ0MTQ1OTI3Mi
-wtMTE2MDU5OTA2NSwtMTc4MDc3OTg4NiwtMTY1MzAxMjEzMiwt
-NDkxODE0MjEzXX0=
+eyJoaXN0b3J5IjpbNjU2NTc4NTE1LDYyMjk3MDU0MywtMTQxMT
+kyOTExNiwtMTMyMjQxODM1NiwtNzgyNjY5ODQ4LC0xMDQyMjE4
+NjIxLDY5Nzk1NzU2OSwtMTkyMjg4MjQwNSwxMjIyNDc3ODM2LD
+Y5NTc2MjY0OSwtMTAzNTg3MjE0LDE2NDE5OTg2NzQsMTczMjYy
+MTE0NCwxODA0MDkwMzA2LC01NTE2NzExODEsNDQxNDU5MjcyLC
+0xMTYwNTk5MDY1LC0xNzgwNzc5ODg2LC0xNjUzMDEyMTMyLC00
+OTE4MTQyMTNdfQ==
 -->
