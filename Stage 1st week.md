@@ -170,13 +170,13 @@ J'ai mis du temps mais j'ai réussi a boucler dessus pour afficher correctement 
 J'ai également modifié le dev suite aux changements effectués ce matin, et j'ai pris un temps pour commenter le code un peu mieux.
 
 **Mercredi :** 
-Réglé un petit défaut dans le nom fichier avec une ternaire, ($rubriqueNom ? "_" : '') afin de concaténer un "_" dans le nom de fichier seulement si il y a un nom de rubrique, sinon rien, ça empêche d'avoir deux "__" a la suite dans le nom. Problème à signaler également a nicolas dans l'envoi de l'ajax, le libellé semble etre envoyé quoi qu'il arrive, or on le veut que si les options sont cochées.
+Réglé un petit défaut dans le nom fichier avec une ternaire, ($rubriqueNom ? "_" : '') afin de concaténer un "_" dans le nom de fichier seulement si il y a un nom de rubrique, sinon rien, ça empêche d'avoir deux "__" a la suite dans le nom. Problème à signaler également a nicolas dans l'envoi de l'ajax, le libellé semble etre envoyé quoi qu'il arrive, or on le veut que si les options sont cochées, sinon je peux faire une condition si la valeur est di
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MjQzMjc0Miw2MjI5NzA1NDMsLTE0MT
-E5MjkxMTYsLTEzMjI0MTgzNTYsLTc4MjY2OTg0OCwtMTA0MjIx
-ODYyMSw2OTc5NTc1NjksLTE5MjI4ODI0MDUsMTIyMjQ3NzgzNi
-w2OTU3NjI2NDksLTEwMzU4NzIxNCwxNjQxOTk4Njc0LDE3MzI2
-MjExNDQsMTgwNDA5MDMwNiwtNTUxNjcxMTgxLDQ0MTQ1OTI3Mi
-wtMTE2MDU5OTA2NSwtMTc4MDc3OTg4NiwtMTY1MzAxMjEzMiwt
-NDkxODE0MjEzXX0=
+eyJoaXN0b3J5IjpbLTEzNzkwNDcxOTcsLTU5MjQzMjc0Miw2Mj
+I5NzA1NDMsLTE0MTE5MjkxMTYsLTEzMjI0MTgzNTYsLTc4MjY2
+OTg0OCwtMTA0MjIxODYyMSw2OTc5NTc1NjksLTE5MjI4ODI0MD
+UsMTIyMjQ3NzgzNiw2OTU3NjI2NDksLTEwMzU4NzIxNCwxNjQx
+OTk4Njc0LDE3MzI2MjExNDQsMTgwNDA5MDMwNiwtNTUxNjcxMT
+gxLDQ0MTQ1OTI3MiwtMTE2MDU5OTA2NSwtMTc4MDc3OTg4Niwt
+MTY1MzAxMjEzMl19
 -->
