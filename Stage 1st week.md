@@ -169,13 +169,13 @@ Il a également modifié la requête sql pour les pages, afin d'envoyer le rang 
 J'ai mis du temps mais j'ai réussi a boucler dessus pour afficher correctement les pages.
 J'ai également modifié le dev suite aux changements effectués ce matin, et j'ai pris un temps pour commenter le code un peu mieux.
 
-Mercredi : 
+**Mercredi :** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQ5NjMwODksLTE0MTE5MjkxMTYsLT
-EzMjI0MTgzNTYsLTc4MjY2OTg0OCwtMTA0MjIxODYyMSw2OTc5
-NTc1NjksLTE5MjI4ODI0MDUsMTIyMjQ3NzgzNiw2OTU3NjI2ND
-ksLTEwMzU4NzIxNCwxNjQxOTk4Njc0LDE3MzI2MjExNDQsMTgw
-NDA5MDMwNiwtNTUxNjcxMTgxLDQ0MTQ1OTI3MiwtMTE2MDU5OT
-A2NSwtMTc4MDc3OTg4NiwtMTY1MzAxMjEzMiwtNDkxODE0MjEz
-LDEwNjgzMTE1NTBdfQ==
+eyJoaXN0b3J5IjpbNjIyOTcwNTQzLC0xNDExOTI5MTE2LC0xMz
+IyNDE4MzU2LC03ODI2Njk4NDgsLTEwNDIyMTg2MjEsNjk3OTU3
+NTY5LC0xOTIyODgyNDA1LDEyMjI0Nzc4MzYsNjk1NzYyNjQ5LC
+0xMDM1ODcyMTQsMTY0MTk5ODY3NCwxNzMyNjIxMTQ0LDE4MDQw
+OTAzMDYsLTU1MTY3MTE4MSw0NDE0NTkyNzIsLTExNjA1OTkwNj
+UsLTE3ODA3Nzk4ODYsLTE2NTMwMTIxMzIsLTQ5MTgxNDIxMywx
+MDY4MzExNTUwXX0=
 -->
