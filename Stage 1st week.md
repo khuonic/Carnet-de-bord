@@ -179,13 +179,13 @@ J'essaye aussi d'envoyer le lien absolu des images si images il y a dans la requ
 J'ai pu effectuer ce changement directement au moment de l'export, je modifie au dernier moment les valeurs contenant les extensions d'images avec le chemin absolu, cela évite de le faire sur le résultat de la première requete, qui récupère tous les produits en Bdd.
 
 **Jeudi :**  J'ai vu avec Nicolas hier pour partir sur un autre dev, en rapport avec le premier, ce serait cette fois créer une possibilité d'importer les données pour l'utilisateur, ca va etre plus compliqué mais intéressant.
-Il m'a donné accès a une autre page du backOffice, qui a 
+Il m'a donné accès a une autre page du backOffice, qui a révélé d'autres soucis avec l'export et les informations contenues dans les fichiers Xml de cette page, je vais d'abord essayer de résoudre ces problèmes avant de commencer l'import.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjUwOTc5OTQsOTYxMDQxMDU5LDc0MD
-U5NTI2MCwxMzA4OTI4NDQwLDI5MTM5ODUxNiwtMTkwMDUyNDE5
-NSwxMzI4NzU5OTQ3LC0zMjY4MzY3MDMsLTU5MjQzMjc0Miw2Mj
-I5NzA1NDMsLTE0MTE5MjkxMTYsLTEzMjI0MTgzNTYsLTc4MjY2
-OTg0OCwtMTA0MjIxODYyMSw2OTc5NTc1NjksLTE5MjI4ODI0MD
-UsMTIyMjQ3NzgzNiw2OTU3NjI2NDksLTEwMzU4NzIxNCwxNjQx
-OTk4Njc0XX0=
+eyJoaXN0b3J5IjpbMTUyMzQ3MDI5LDk2MTA0MTA1OSw3NDA1OT
+UyNjAsMTMwODkyODQ0MCwyOTEzOTg1MTYsLTE5MDA1MjQxOTUs
+MTMyODc1OTk0NywtMzI2ODM2NzAzLC01OTI0MzI3NDIsNjIyOT
+cwNTQzLC0xNDExOTI5MTE2LC0xMzIyNDE4MzU2LC03ODI2Njk4
+NDgsLTEwNDIyMTg2MjEsNjk3OTU3NTY5LC0xOTIyODgyNDA1LD
+EyMjI0Nzc4MzYsNjk1NzYyNjQ5LC0xMDM1ODcyMTQsMTY0MTk5
+ODY3NF19
 -->
