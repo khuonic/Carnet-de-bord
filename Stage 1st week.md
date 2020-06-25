@@ -176,13 +176,16 @@ L'order by marche bien, les produits récupérés dans la requete sont bien tri�
 Assez content j'ai rapidement trouvé un moyen de régler ce probème, avec deux fonctions php, je pose une condition (si la recherche est active et le tri actif) je récupère le tableau contenant les valeurs de la colonne a trier (array_column(array, $params['colonneTrie'])) et ensuite je regarde le sens du tri (0 = ASC,  1 = DESC) et j'utilise la function php array_multisort avec comme paramètre les colonnes triées au préalable, le sens du tri, et le tableau de résultats.
 Rajouté la php doc pour chaque fonction pour rendre le code plus lisible.
 J'essaye aussi d'envoyer le lien absolu des images si images il y a dans la requete retournée.
-J'ai pu effectuer ce changement directement au moment de l'export, je modifie au dernier moment les valeurs contenant les extensions d'images avec le chemin absolu, cela évite de le faire sur le résultat de la première requete, qui récupère tous les produits en Bdd
+J'ai pu effectuer ce changement directement au moment de l'export, je modifie au dernier moment les valeurs contenant les extensions d'images avec le chemin absolu, cela évite de le faire sur le résultat de la première requete, qui récupère tous les produits en Bdd.
+
+**Jeudi :**  J'ai vu avec Nicolas hier pour partir sur un autre dev, en rapport avec le premier, ce serait cette fois créer une possibilité d'importer les données pour l'utilisateur, ca va etre plus compliqué mais intéressant.
+Il m'a donné accès a une autre page du backOffice, qui a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYxMDQxMDU5LDc0MDU5NTI2MCwxMzA4OT
-I4NDQwLDI5MTM5ODUxNiwtMTkwMDUyNDE5NSwxMzI4NzU5OTQ3
-LC0zMjY4MzY3MDMsLTU5MjQzMjc0Miw2MjI5NzA1NDMsLTE0MT
-E5MjkxMTYsLTEzMjI0MTgzNTYsLTc4MjY2OTg0OCwtMTA0MjIx
-ODYyMSw2OTc5NTc1NjksLTE5MjI4ODI0MDUsMTIyMjQ3NzgzNi
-w2OTU3NjI2NDksLTEwMzU4NzIxNCwxNjQxOTk4Njc0LDE3MzI2
-MjExNDRdfQ==
+eyJoaXN0b3J5IjpbLTIwNjUwOTc5OTQsOTYxMDQxMDU5LDc0MD
+U5NTI2MCwxMzA4OTI4NDQwLDI5MTM5ODUxNiwtMTkwMDUyNDE5
+NSwxMzI4NzU5OTQ3LC0zMjY4MzY3MDMsLTU5MjQzMjc0Miw2Mj
+I5NzA1NDMsLTE0MTE5MjkxMTYsLTEzMjI0MTgzNTYsLTc4MjY2
+OTg0OCwtMTA0MjIxODYyMSw2OTc5NTc1NjksLTE5MjI4ODI0MD
+UsMTIyMjQ3NzgzNiw2OTU3NjI2NDksLTEwMzU4NzIxNCwxNjQx
+OTk4Njc0XX0=
 -->
