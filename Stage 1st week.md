@@ -185,9 +185,10 @@ Il m'a donné accès a une autre page du backOffice, qui a révélé d'autres so
 J'ai modifié plusieurs choses dans le dev pour rendre plus dynamique encore l'export.
 En ayant accès a la page utilisateur je me suis rendu compte que l'xml de cette page était encore différent des autres, j'ai donc du modifié la facon de récupérer les informations de ce dit Xml.
 Dans ma  fonction récupereProduits j'ai effectué une requete supplémentaire qui va récuperer les noms de colonne de la table ou l'on se trouve et je fais ensuite une condition ou je check si les champs récupérés par recupereInfosXml sont bien dans les noms de colonne de la table, ce qui évite toute erreur si des champs supplémentaires sont récupérés par le Xml.
-J'ai également créé une variable supplémentaire dans le constructeur qui est un array ($tabChampsXml) dans le quel j'envoie les séparateurs et les champs Xml valides, ce qui m'évite également la répétition de code que je faisais dans exportCsv et exportXml
+J'ai également créé une variable supplémentaire dans le constructeur qui est un array ($tabChampsXml) dans le quel j'envoie les séparateurs et les champs Xml valides, ce qui m'évite également la répétition de code que je faisais dans exportCsv et exportXml.
+Dans recupereInfosXml j'ai rajouté une condition qui check si le champ a un type Liste, si oui est ce que champs->valeurPossible contient ('base:') cela veut dire qu'une base extérieure intervient. J'envoie donc dans le tableau retourné le nom 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTE1MDI2OSwxNTIzNDcwMjksOTYxMD
+eyJoaXN0b3J5IjpbLTE5MzU4ODk3MSwxNTIzNDcwMjksOTYxMD
 QxMDU5LDc0MDU5NTI2MCwxMzA4OTI4NDQwLDI5MTM5ODUxNiwt
 MTkwMDUyNDE5NSwxMzI4NzU5OTQ3LC0zMjY4MzY3MDMsLTU5Mj
 QzMjc0Miw2MjI5NzA1NDMsLTE0MTE5MjkxMTYsLTEzMjI0MTgz
