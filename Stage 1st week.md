@@ -185,16 +185,16 @@ Il m'a donné accès a une autre page du backOffice, qui a révélé d'autres so
 J'ai modifié plusieurs choses dans le dev pour rendre plus dynamique encore l'export.
 En ayant accès a la page utilisateur je me suis rendu compte que l'xml de cette page était encore différent des autres, j'ai donc du modifié la facon de récupérer les informations de ce dit Xml.
 Dans ma  fonction récupereProduits j'ai effectué une requete supplémentaire qui va récuperer les noms de colonne de la table ou l'on se trouve et je fais ensuite une condition ou je check si les champs récupérés par recupereInfosXml sont bien dans les noms de colonne de la table, ce qui évite toute erreur si des champs supplémentaires sont récupérés par le Xml.
-J'ai également créé une variable supplémentaire dans le constructeur qui est un array ($tabChampsXml) dans le quel j'envoie les séparateurs et les champs Xml valides, ce qui m'évite également la répétition de code que je faisais dans exportCsv et exportXml.
+J'ai également créé une variable supplémentaire dans le constructeur qui est un array (tabChampsXml) dans le quel j'envoie les séparateurs et les champs Xml valides, ce qui m'évite également la répétition de code que je faisais dans exportCsv et exportXml.
 Dans recupereInfosXml j'ai rajouté une condition qui check si le champ a un type Liste, si oui est ce que champs->valeurPossible contient ('base:') cela veut dire qu'une table externe intervient. J'envoie donc dans le tableau retourné le nom de cette base et le nom de champ.
 Ce qui me permet ensuite dans recupereProduits de faire un LEFT JOIN avec pour avec les informations envoyées pour récupérer le nom contenu dans la table externe et de l'envoyé dans le data retourné.
-J'ai égale
+J'ai également fait une petite modif sur le nomTableNettoye (nomTableNettoye  =  substr(strrchr($nomTable,  '_'),  1);), car avec la précédente version je n'effacais pas tous les _ contenus dans le nom de table, ex : me_fdv_utilisateurs donnait fdv_utilisateur
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzYyMjczMCwtMjAwOTc5MjI5MSwxNT
-IzNDcwMjksOTYxMDQxMDU5LDc0MDU5NTI2MCwxMzA4OTI4NDQw
-LDI5MTM5ODUxNiwtMTkwMDUyNDE5NSwxMzI4NzU5OTQ3LC0zMj
-Y4MzY3MDMsLTU5MjQzMjc0Miw2MjI5NzA1NDMsLTE0MTE5Mjkx
-MTYsLTEzMjI0MTgzNTYsLTc4MjY2OTg0OCwtMTA0MjIxODYyMS
-w2OTc5NTc1NjksLTE5MjI4ODI0MDUsMTIyMjQ3NzgzNiw2OTU3
-NjI2NDldfQ==
+eyJoaXN0b3J5IjpbNzU4MDI1MDcxLC0yMDA5NzkyMjkxLDE1Mj
+M0NzAyOSw5NjEwNDEwNTksNzQwNTk1MjYwLDEzMDg5Mjg0NDAs
+MjkxMzk4NTE2LC0xOTAwNTI0MTk1LDEzMjg3NTk5NDcsLTMyNj
+gzNjcwMywtNTkyNDMyNzQyLDYyMjk3MDU0MywtMTQxMTkyOTEx
+NiwtMTMyMjQxODM1NiwtNzgyNjY5ODQ4LC0xMDQyMjE4NjIxLD
+Y5Nzk1NzU2OSwtMTkyMjg4MjQwNSwxMjIyNDc3ODM2LDY5NTc2
+MjY0OV19
 -->
