@@ -181,9 +181,12 @@ J'ai pu effectuer ce changement directement au moment de l'export, je modifie au
 **Jeudi :**  J'ai vu avec Nicolas hier pour partir sur un autre dev, en rapport avec le premier, ce serait cette fois créer une possibilité d'importer les données pour l'utilisateur, ca va etre plus compliqué mais intéressant.
 Il m'a donné accès a une autre page du backOffice, qui a révélé d'autres soucis avec l'export et les informations contenues dans les fichiers Xml de cette page, je vais d'abord essayer de résoudre ces problèmes avant de commencer l'import.
 
-Vendredi :
+**Vendredi :** 
+J'ai modifié plusieurs choses dans le dev pour rendre plus dynamique encore l'export.
+En ayant accès a la page utilisateur je me suis rendu compte que l'xml de cette page était encore différent des autres, j'ai donc du modifié la facon de récupérer les informations de ce dit Xml.
+Dans ma  fonction récupereProdu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQwMTg2OTQsMTUyMzQ3MDI5LDk2MT
+eyJoaXN0b3J5IjpbLTE0OTMxNTMzMDQsMTUyMzQ3MDI5LDk2MT
 A0MTA1OSw3NDA1OTUyNjAsMTMwODkyODQ0MCwyOTEzOTg1MTYs
 LTE5MDA1MjQxOTUsMTMyODc1OTk0NywtMzI2ODM2NzAzLC01OT
 I0MzI3NDIsNjIyOTcwNTQzLC0xNDExOTI5MTE2LC0xMzIyNDE4
