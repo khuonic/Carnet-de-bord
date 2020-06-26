@@ -188,12 +188,13 @@ Dans ma  fonction récupereProduits j'ai effectué une requete supplémentaire q
 J'ai également créé une variable supplémentaire dans le constructeur qui est un array ($tabChampsXml) dans le quel j'envoie les séparateurs et les champs Xml valides, ce qui m'évite également la répétition de code que je faisais dans exportCsv et exportXml.
 Dans recupereInfosXml j'ai rajouté une condition qui check si le champ a un type Liste, si oui est ce que champs->valeurPossible contient ('base:') cela veut dire qu'une table externe intervient. J'envoie donc dans le tableau retourné le nom de cette base et le nom de champ.
 Ce qui me permet ensuite dans recupereProduits de faire un LEFT JOIN avec pour avec les informations envoyées pour récupérer le nom contenu dans la table externe et de l'envoyé dans le data retourné.
+J'ai égale
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk3OTIyOTEsMTUyMzQ3MDI5LDk2MT
-A0MTA1OSw3NDA1OTUyNjAsMTMwODkyODQ0MCwyOTEzOTg1MTYs
-LTE5MDA1MjQxOTUsMTMyODc1OTk0NywtMzI2ODM2NzAzLC01OT
-I0MzI3NDIsNjIyOTcwNTQzLC0xNDExOTI5MTE2LC0xMzIyNDE4
-MzU2LC03ODI2Njk4NDgsLTEwNDIyMTg2MjEsNjk3OTU3NTY5LC
-0xOTIyODgyNDA1LDEyMjI0Nzc4MzYsNjk1NzYyNjQ5LC0xMDM1
-ODcyMTRdfQ==
+eyJoaXN0b3J5IjpbMTkzNzYyMjczMCwtMjAwOTc5MjI5MSwxNT
+IzNDcwMjksOTYxMDQxMDU5LDc0MDU5NTI2MCwxMzA4OTI4NDQw
+LDI5MTM5ODUxNiwtMTkwMDUyNDE5NSwxMzI4NzU5OTQ3LC0zMj
+Y4MzY3MDMsLTU5MjQzMjc0Miw2MjI5NzA1NDMsLTE0MTE5Mjkx
+MTYsLTEzMjI0MTgzNTYsLTc4MjY2OTg0OCwtMTA0MjIxODYyMS
+w2OTc5NTc1NjksLTE5MjI4ODI0MDUsMTIyMjQ3NzgzNiw2OTU3
+NjI2NDldfQ==
 -->
