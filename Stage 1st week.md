@@ -180,12 +180,14 @@ J'ai pu effectuer ce changement directement au moment de l'export, je modifie au
 
 **Jeudi :**  J'ai vu avec Nicolas hier pour partir sur un autre dev, en rapport avec le premier, ce serait cette fois créer une possibilité d'importer les données pour l'utilisateur, ca va etre plus compliqué mais intéressant.
 Il m'a donné accès a une autre page du backOffice, qui a révélé d'autres soucis avec l'export et les informations contenues dans les fichiers Xml de cette page, je vais d'abord essayer de résoudre ces problèmes avant de commencer l'import.
+
+Vendredi :
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMzQ3MDI5LDk2MTA0MTA1OSw3NDA1OT
-UyNjAsMTMwODkyODQ0MCwyOTEzOTg1MTYsLTE5MDA1MjQxOTUs
-MTMyODc1OTk0NywtMzI2ODM2NzAzLC01OTI0MzI3NDIsNjIyOT
-cwNTQzLC0xNDExOTI5MTE2LC0xMzIyNDE4MzU2LC03ODI2Njk4
-NDgsLTEwNDIyMTg2MjEsNjk3OTU3NTY5LC0xOTIyODgyNDA1LD
-EyMjI0Nzc4MzYsNjk1NzYyNjQ5LC0xMDM1ODcyMTQsMTY0MTk5
-ODY3NF19
+eyJoaXN0b3J5IjpbLTE4NzQwMTg2OTQsMTUyMzQ3MDI5LDk2MT
+A0MTA1OSw3NDA1OTUyNjAsMTMwODkyODQ0MCwyOTEzOTg1MTYs
+LTE5MDA1MjQxOTUsMTMyODc1OTk0NywtMzI2ODM2NzAzLC01OT
+I0MzI3NDIsNjIyOTcwNTQzLC0xNDExOTI5MTE2LC0xMzIyNDE4
+MzU2LC03ODI2Njk4NDgsLTEwNDIyMTg2MjEsNjk3OTU3NTY5LC
+0xOTIyODgyNDA1LDEyMjI0Nzc4MzYsNjk1NzYyNjQ5LC0xMDM1
+ODcyMTRdfQ==
 -->
