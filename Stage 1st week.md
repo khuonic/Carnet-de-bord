@@ -187,12 +187,13 @@ En ayant accès a la page utilisateur je me suis rendu compte que l'xml de cette
 Dans ma  fonction récupereProduits j'ai effectué une requete supplémentaire qui va récuperer les noms de colonne de la table ou l'on se trouve et je fais ensuite une condition ou je check si les champs récupérés par recupereInfosXml sont bien dans les noms de colonne de la table, ce qui évite toute erreur si des champs supplémentaires sont récupérés par le Xml.
 J'ai également créé une variable supplémentaire dans le constructeur qui est un array ($tabChampsXml) dans le quel j'envoie les séparateurs et les champs Xml valides, ce qui m'évite également la répétition de code que je faisais dans exportCsv et exportXml.
 Dans recupereInfosXml j'ai rajouté une condition qui check si le champ a un type Liste, si oui est ce que champs->valeurPossible contient ('base:') cela veut dire qu'une base extérieure intervient. J'envoie donc dans le tableau retourné le nom de cette base et le nom de champ.
+Ce qui me permet ensuite dans recupereProduits de faire un LEFT JOIN avec pour avec les informations envoyées pour récupérer le nom contenu dans la table externe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTMwOTYxNCwxNTIzNDcwMjksOTYxMD
-QxMDU5LDc0MDU5NTI2MCwxMzA4OTI4NDQwLDI5MTM5ODUxNiwt
-MTkwMDUyNDE5NSwxMzI4NzU5OTQ3LC0zMjY4MzY3MDMsLTU5Mj
-QzMjc0Miw2MjI5NzA1NDMsLTE0MTE5MjkxMTYsLTEzMjI0MTgz
-NTYsLTc4MjY2OTg0OCwtMTA0MjIxODYyMSw2OTc5NTc1NjksLT
-E5MjI4ODI0MDUsMTIyMjQ3NzgzNiw2OTU3NjI2NDksLTEwMzU4
-NzIxNF19
+eyJoaXN0b3J5IjpbMTQ1ODc4Mjk5LDE1MjM0NzAyOSw5NjEwND
+EwNTksNzQwNTk1MjYwLDEzMDg5Mjg0NDAsMjkxMzk4NTE2LC0x
+OTAwNTI0MTk1LDEzMjg3NTk5NDcsLTMyNjgzNjcwMywtNTkyND
+MyNzQyLDYyMjk3MDU0MywtMTQxMTkyOTExNiwtMTMyMjQxODM1
+NiwtNzgyNjY5ODQ4LC0xMDQyMjE4NjIxLDY5Nzk1NzU2OSwtMT
+kyMjg4MjQwNSwxMjIyNDc3ODM2LDY5NTc2MjY0OSwtMTAzNTg3
+MjE0XX0=
 -->
