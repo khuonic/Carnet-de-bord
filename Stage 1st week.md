@@ -184,13 +184,13 @@ Il m'a donné accès a une autre page du backOffice, qui a révélé d'autres so
 **Vendredi :** 
 J'ai modifié plusieurs choses dans le dev pour rendre plus dynamique encore l'export.
 En ayant accès a la page utilisateur je me suis rendu compte que l'xml de cette page était encore différent des autres, j'ai donc du modifié la facon de récupérer les informations de ce dit Xml.
-Dans ma  fonction récupereProdu
+Dans ma  fonction récupereProduits j'ai effectué une requete supplémentaire qui va récuperer les noms de colonne de la table ou l'on se trouve et je fais ensuite une condition ou je check si les champs récupérés par recupereInfosXml sont bien dans les noms de colonne de la table, ce qui évite toute erreur si des champs supplémentaires sont récupérés par le Xml.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTMxNTMzMDQsMTUyMzQ3MDI5LDk2MT
-A0MTA1OSw3NDA1OTUyNjAsMTMwODkyODQ0MCwyOTEzOTg1MTYs
-LTE5MDA1MjQxOTUsMTMyODc1OTk0NywtMzI2ODM2NzAzLC01OT
-I0MzI3NDIsNjIyOTcwNTQzLC0xNDExOTI5MTE2LC0xMzIyNDE4
-MzU2LC03ODI2Njk4NDgsLTEwNDIyMTg2MjEsNjk3OTU3NTY5LC
-0xOTIyODgyNDA1LDEyMjI0Nzc4MzYsNjk1NzYyNjQ5LC0xMDM1
-ODcyMTRdfQ==
+eyJoaXN0b3J5IjpbMTY1MzAwNzczMywxNTIzNDcwMjksOTYxMD
+QxMDU5LDc0MDU5NTI2MCwxMzA4OTI4NDQwLDI5MTM5ODUxNiwt
+MTkwMDUyNDE5NSwxMzI4NzU5OTQ3LC0zMjY4MzY3MDMsLTU5Mj
+QzMjc0Miw2MjI5NzA1NDMsLTE0MTE5MjkxMTYsLTEzMjI0MTgz
+NTYsLTc4MjY2OTg0OCwtMTA0MjIxODYyMSw2OTc5NTc1NjksLT
+E5MjI4ODI0MDUsMTIyMjQ3NzgzNiw2OTU3NjI2NDksLTEwMzU4
+NzIxNF19
 -->
