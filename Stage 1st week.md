@@ -186,14 +186,14 @@ J'ai modifié plusieurs choses dans le dev pour rendre plus dynamique encore l'e
 En ayant accès a la page utilisateur je me suis rendu compte que l'xml de cette page était encore différent des autres, j'ai donc du modifié la facon de récupérer les informations de ce dit Xml.
 Dans ma  fonction récupereProduits j'ai effectué une requete supplémentaire qui va récuperer les noms de colonne de la table ou l'on se trouve et je fais ensuite une condition ou je check si les champs récupérés par recupereInfosXml sont bien dans les noms de colonne de la table, ce qui évite toute erreur si des champs supplémentaires sont récupérés par le Xml.
 J'ai également créé une variable supplémentaire dans le constructeur qui est un array ($tabChampsXml) dans le quel j'envoie les séparateurs et les champs Xml valides, ce qui m'évite également la répétition de code que je faisais dans exportCsv et exportXml.
-Dans recupereInfosXml j'ai rajouté une condition qui check si le champ a un type Liste, si oui est ce que champs->valeurPossible contient ('base:') cela veut dire qu'une base extérieure intervient. J'envoie donc dans le tableau retourné le nom de cette base et le nom de champ.
-Ce qui me permet ensuite dans recupereProduits de faire un LEFT JOIN avec pour avec les informations envoyées pour récupérer le nom contenu dans la table externe
+Dans recupereInfosXml j'ai rajouté une condition qui check si le champ a un type Liste, si oui est ce que champs->valeurPossible contient ('base:') cela veut dire qu'une table externe intervient. J'envoie donc dans le tableau retourné le nom de cette base et le nom de champ.
+Ce qui me permet ensuite dans recupereProduits de faire un LEFT JOIN avec pour avec les informations envoyées pour récupérer le nom contenu dans la table externe et de l'envoyé dans le data retourné.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODc4Mjk5LDE1MjM0NzAyOSw5NjEwND
-EwNTksNzQwNTk1MjYwLDEzMDg5Mjg0NDAsMjkxMzk4NTE2LC0x
-OTAwNTI0MTk1LDEzMjg3NTk5NDcsLTMyNjgzNjcwMywtNTkyND
-MyNzQyLDYyMjk3MDU0MywtMTQxMTkyOTExNiwtMTMyMjQxODM1
-NiwtNzgyNjY5ODQ4LC0xMDQyMjE4NjIxLDY5Nzk1NzU2OSwtMT
-kyMjg4MjQwNSwxMjIyNDc3ODM2LDY5NTc2MjY0OSwtMTAzNTg3
-MjE0XX0=
+eyJoaXN0b3J5IjpbLTIwMDk3OTIyOTEsMTUyMzQ3MDI5LDk2MT
+A0MTA1OSw3NDA1OTUyNjAsMTMwODkyODQ0MCwyOTEzOTg1MTYs
+LTE5MDA1MjQxOTUsMTMyODc1OTk0NywtMzI2ODM2NzAzLC01OT
+I0MzI3NDIsNjIyOTcwNTQzLC0xNDExOTI5MTE2LC0xMzIyNDE4
+MzU2LC03ODI2Njk4NDgsLTEwNDIyMTg2MjEsNjk3OTU3NTY5LC
+0xOTIyODgyNDA1LDEyMjI0Nzc4MzYsNjk1NzYyNjQ5LC0xMDM1
+ODcyMTRdfQ==
 -->
