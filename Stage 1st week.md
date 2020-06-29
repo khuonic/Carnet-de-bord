@@ -190,13 +190,15 @@ Dans recupereInfosXml j'ai rajouté une condition qui check si le champ a un typ
 Ce qui me permet ensuite dans recupereProduits de faire un LEFT JOIN avec pour avec les informations envoyées pour récupérer le nom contenu dans la table externe et de l'envoyé dans le data retourné.
 J'ai également fait une petite modif sur le nomTableNettoye (nomTableNettoye  =  substr(strrchr($nomTable,  '_'),  1);), car avec la précédente version je n'effacais pas tous les _ contenus dans le nom de table, ex : me_fdv_utilisateurs donnait fdv_utilisateurs.
 
+**Semaine 8:**
 
+**Lundi :** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjE3NDI1Niw1MDI2MzQyMjgsLTIwMD
-k3OTIyOTEsMTUyMzQ3MDI5LDk2MTA0MTA1OSw3NDA1OTUyNjAs
-MTMwODkyODQ0MCwyOTEzOTg1MTYsLTE5MDA1MjQxOTUsMTMyOD
-c1OTk0NywtMzI2ODM2NzAzLC01OTI0MzI3NDIsNjIyOTcwNTQz
-LC0xNDExOTI5MTE2LC0xMzIyNDE4MzU2LC03ODI2Njk4NDgsLT
-EwNDIyMTg2MjEsNjk3OTU3NTY5LC0xOTIyODgyNDA1LDEyMjI0
-Nzc4MzZdfQ==
+eyJoaXN0b3J5IjpbNjkwNzY3ODgwLDUwMjYzNDIyOCwtMjAwOT
+c5MjI5MSwxNTIzNDcwMjksOTYxMDQxMDU5LDc0MDU5NTI2MCwx
+MzA4OTI4NDQwLDI5MTM5ODUxNiwtMTkwMDUyNDE5NSwxMzI4Nz
+U5OTQ3LC0zMjY4MzY3MDMsLTU5MjQzMjc0Miw2MjI5NzA1NDMs
+LTE0MTE5MjkxMTYsLTEzMjI0MTgzNTYsLTc4MjY2OTg0OCwtMT
+A0MjIxODYyMSw2OTc5NTc1NjksLTE5MjI4ODI0MDUsMTIyMjQ3
+NzgzNl19
 -->
