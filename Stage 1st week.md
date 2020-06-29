@@ -189,12 +189,14 @@ J'ai également créé une variable supplémentaire dans le constructeur qui est
 Dans recupereInfosXml j'ai rajouté une condition qui check si le champ a un type Liste, si oui est ce que champs->valeurPossible contient ('base:') cela veut dire qu'une table externe intervient. J'envoie donc dans le tableau retourné le nom de cette base et le nom de champ.
 Ce qui me permet ensuite dans recupereProduits de faire un LEFT JOIN avec pour avec les informations envoyées pour récupérer le nom contenu dans la table externe et de l'envoyé dans le data retourné.
 J'ai également fait une petite modif sur le nomTableNettoye (nomTableNettoye  =  substr(strrchr($nomTable,  '_'),  1);), car avec la précédente version je n'effacais pas tous les _ contenus dans le nom de table, ex : me_fdv_utilisateurs donnait fdv_utilisateurs.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyNjM0MjI4LC0yMDA5NzkyMjkxLDE1Mj
-M0NzAyOSw5NjEwNDEwNTksNzQwNTk1MjYwLDEzMDg5Mjg0NDAs
-MjkxMzk4NTE2LC0xOTAwNTI0MTk1LDEzMjg3NTk5NDcsLTMyNj
-gzNjcwMywtNTkyNDMyNzQyLDYyMjk3MDU0MywtMTQxMTkyOTEx
-NiwtMTMyMjQxODM1NiwtNzgyNjY5ODQ4LC0xMDQyMjE4NjIxLD
-Y5Nzk1NzU2OSwtMTkyMjg4MjQwNSwxMjIyNDc3ODM2LDY5NTc2
-MjY0OV19
+eyJoaXN0b3J5IjpbLTQwNjE3NDI1Niw1MDI2MzQyMjgsLTIwMD
+k3OTIyOTEsMTUyMzQ3MDI5LDk2MTA0MTA1OSw3NDA1OTUyNjAs
+MTMwODkyODQ0MCwyOTEzOTg1MTYsLTE5MDA1MjQxOTUsMTMyOD
+c1OTk0NywtMzI2ODM2NzAzLC01OTI0MzI3NDIsNjIyOTcwNTQz
+LC0xNDExOTI5MTE2LC0xMzIyNDE4MzU2LC03ODI2Njk4NDgsLT
+EwNDIyMTg2MjEsNjk3OTU3NTY5LC0xOTIyODgyNDA1LDEyMjI0
+Nzc4MzZdfQ==
 -->
