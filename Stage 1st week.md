@@ -193,13 +193,15 @@ J'ai également fait une petite modif sur le nomTableNettoye (nomTableNettoye  =
 **Semaine 8:**
 
 **Lundi :**  Entretien à la MIDE avec julie, nicolas et julien.
-Création du plan détaillé du dossier de projets
+Création du plan détaillé du dossier de projets, travail sur l'import a nouveau
+
+Mardi:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MTY4OTM0OCw2OTA3Njc4ODAsNTAyNj
-M0MjI4LC0yMDA5NzkyMjkxLDE1MjM0NzAyOSw5NjEwNDEwNTks
-NzQwNTk1MjYwLDEzMDg5Mjg0NDAsMjkxMzk4NTE2LC0xOTAwNT
-I0MTk1LDEzMjg3NTk5NDcsLTMyNjgzNjcwMywtNTkyNDMyNzQy
-LDYyMjk3MDU0MywtMTQxMTkyOTExNiwtMTMyMjQxODM1NiwtNz
-gyNjY5ODQ4LC0xMDQyMjE4NjIxLDY5Nzk1NzU2OSwtMTkyMjg4
-MjQwNV19
+eyJoaXN0b3J5IjpbLTE1MTQzOTY3MzgsMTE1MTY4OTM0OCw2OT
+A3Njc4ODAsNTAyNjM0MjI4LC0yMDA5NzkyMjkxLDE1MjM0NzAy
+OSw5NjEwNDEwNTksNzQwNTk1MjYwLDEzMDg5Mjg0NDAsMjkxMz
+k4NTE2LC0xOTAwNTI0MTk1LDEzMjg3NTk5NDcsLTMyNjgzNjcw
+MywtNTkyNDMyNzQyLDYyMjk3MDU0MywtMTQxMTkyOTExNiwtMT
+MyMjQxODM1NiwtNzgyNjY5ODQ4LC0xMDQyMjE4NjIxLDY5Nzk1
+NzU2OV19
 -->
