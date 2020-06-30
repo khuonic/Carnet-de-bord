@@ -195,13 +195,15 @@ J'ai également fait une petite modif sur le nomTableNettoye (nomTableNettoye  =
 **Lundi :**  Entretien à la MIDE avec julie, nicolas et julien.
 Création du plan détaillé du dossier de projets, travail sur l'import a nouveau
 
-Mardi:
+**Mardi:**
+Travail sur la fonction d'import des données dans le backoffice de masterEdit.
+Pour le moment je travaille sur un fichier présent dans le dossier export que j'ai modifié moi meme, et j'essaye d'en importer les données dans la base, en créant une interface qui sera dynamique.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTQzOTY3MzgsMTE1MTY4OTM0OCw2OT
-A3Njc4ODAsNTAyNjM0MjI4LC0yMDA5NzkyMjkxLDE1MjM0NzAy
-OSw5NjEwNDEwNTksNzQwNTk1MjYwLDEzMDg5Mjg0NDAsMjkxMz
-k4NTE2LC0xOTAwNTI0MTk1LDEzMjg3NTk5NDcsLTMyNjgzNjcw
-MywtNTkyNDMyNzQyLDYyMjk3MDU0MywtMTQxMTkyOTExNiwtMT
-MyMjQxODM1NiwtNzgyNjY5ODQ4LC0xMDQyMjE4NjIxLDY5Nzk1
-NzU2OV19
+eyJoaXN0b3J5IjpbMTY1OTU5MzE4OSwxMTUxNjg5MzQ4LDY5MD
+c2Nzg4MCw1MDI2MzQyMjgsLTIwMDk3OTIyOTEsMTUyMzQ3MDI5
+LDk2MTA0MTA1OSw3NDA1OTUyNjAsMTMwODkyODQ0MCwyOTEzOT
+g1MTYsLTE5MDA1MjQxOTUsMTMyODc1OTk0NywtMzI2ODM2NzAz
+LC01OTI0MzI3NDIsNjIyOTcwNTQzLC0xNDExOTI5MTE2LC0xMz
+IyNDE4MzU2LC03ODI2Njk4NDgsLTEwNDIyMTg2MjEsNjk3OTU3
+NTY5XX0=
 -->
