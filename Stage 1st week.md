@@ -199,13 +199,13 @@ Création du plan détaillé du dossier de projets, travail sur l'import a nouve
 Travail sur la fonction d'import des données dans le backoffice de masterEdit.
 Pour le moment je travaille sur un fichier présent dans le dossier export que j'ai modifié moi meme, et j'essaye d'en importer les données dans la base, en créant une interface qui sera dynamique.
 
-Mercred
+**Mercredi:**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA1NzQ4NjksLTgyNTE5Mzc3MywxNj
-U5NTkzMTg5LDExNTE2ODkzNDgsNjkwNzY3ODgwLDUwMjYzNDIy
-OCwtMjAwOTc5MjI5MSwxNTIzNDcwMjksOTYxMDQxMDU5LDc0MD
-U5NTI2MCwxMzA4OTI4NDQwLDI5MTM5ODUxNiwtMTkwMDUyNDE5
-NSwxMzI4NzU5OTQ3LC0zMjY4MzY3MDMsLTU5MjQzMjc0Miw2Mj
-I5NzA1NDMsLTE0MTE5MjkxMTYsLTEzMjI0MTgzNTYsLTc4MjY2
-OTg0OF19
+eyJoaXN0b3J5IjpbNjE5MzI0NDIsLTgyNTE5Mzc3MywxNjU5NT
+kzMTg5LDExNTE2ODkzNDgsNjkwNzY3ODgwLDUwMjYzNDIyOCwt
+MjAwOTc5MjI5MSwxNTIzNDcwMjksOTYxMDQxMDU5LDc0MDU5NT
+I2MCwxMzA4OTI4NDQwLDI5MTM5ODUxNiwtMTkwMDUyNDE5NSwx
+MzI4NzU5OTQ3LC0zMjY4MzY3MDMsLTU5MjQzMjc0Miw2MjI5Nz
+A1NDMsLTE0MTE5MjkxMTYsLTEzMjI0MTgzNTYsLTc4MjY2OTg0
+OF19
 -->
