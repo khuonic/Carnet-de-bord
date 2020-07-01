@@ -200,13 +200,13 @@ Travail sur la fonction d'import des données dans le backoffice de masterEdit.
 Pour le moment je travaille sur un fichier présent dans le dossier export que j'ai modifié moi meme, et j'essaye d'en importer les données dans la base, en créant une interface qui sera dynamique.
 
 **Mercredi:**
-Création de deux fonctions différente, recupereDonneesFichier, et importDonneesFichier, l'import se fait en plusieurs étapes, l'utilisateur envoie son fichier via un formulaire, on récupère ensuite les données du fichier csv envoyé, et on créé un nouveau formulaire avec des select, ou l'utilisateur pourra choisir quelle colonne de son fichier va dans quel champ en base de données. Une fois qu'il a choisi toutes les col
+Création de deux fonctions différente, recupereDonneesFichier, et importDonneesFichier, l'import se fait en plusieurs étapes, l'utilisateur envoie son fichier via un formulaire avec deux options (headers présent dans le csv, et séparateurs), on récupère ensuite les données du fichier csv envoyé, et on créé un nouveau formulaire avec des select, ou l'utilisateur pourra choisir quelle colonne de son fichier va dans quel champ en base de données. Une fois qu'il a choisi toutes les colonnes, on importe les données en base de données, l'étape la plus compliquée est l'import, notamment à cause des liaisons, ou du type de données envoyées (date, integer, string).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDEzMTc5LDYxOTMyNDQyLC04MjUxOT
-M3NzMsMTY1OTU5MzE4OSwxMTUxNjg5MzQ4LDY5MDc2Nzg4MCw1
-MDI2MzQyMjgsLTIwMDk3OTIyOTEsMTUyMzQ3MDI5LDk2MTA0MT
-A1OSw3NDA1OTUyNjAsMTMwODkyODQ0MCwyOTEzOTg1MTYsLTE5
-MDA1MjQxOTUsMTMyODc1OTk0NywtMzI2ODM2NzAzLC01OTI0Mz
-I3NDIsNjIyOTcwNTQzLC0xNDExOTI5MTE2LC0xMzIyNDE4MzU2
-XX0=
+eyJoaXN0b3J5IjpbLTE0ODk3NzIwODcsNjE5MzI0NDIsLTgyNT
+E5Mzc3MywxNjU5NTkzMTg5LDExNTE2ODkzNDgsNjkwNzY3ODgw
+LDUwMjYzNDIyOCwtMjAwOTc5MjI5MSwxNTIzNDcwMjksOTYxMD
+QxMDU5LDc0MDU5NTI2MCwxMzA4OTI4NDQwLDI5MTM5ODUxNiwt
+MTkwMDUyNDE5NSwxMzI4NzU5OTQ3LC0zMjY4MzY3MDMsLTU5Mj
+QzMjc0Miw2MjI5NzA1NDMsLTE0MTE5MjkxMTYsLTEzMjI0MTgz
+NTZdfQ==
 -->
