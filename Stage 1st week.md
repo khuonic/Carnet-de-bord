@@ -200,12 +200,13 @@ Travail sur la fonction d'import des données dans le backoffice de masterEdit.
 Pour le moment je travaille sur un fichier présent dans le dossier export que j'ai modifié moi meme, et j'essaye d'en importer les données dans la base, en créant une interface qui sera dynamique.
 
 **Mercredi:**
+Création de deux fonctions différente, recupereDonneesFichier, et importDonneesFichier, l'import se fait en plusieurs étapes, l'utilisateur envoie son fichier via un formulaire, on récupère ensuite les données du fichier csv envoyé, et on créé un nouveau formulaire avec des select, ou l'utilisateur pourra choisir quelle colonne de son fichier va dans quel champ en base de données. Une fois qu'il a choisi toutes les col
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5MzI0NDIsLTgyNTE5Mzc3MywxNjU5NT
-kzMTg5LDExNTE2ODkzNDgsNjkwNzY3ODgwLDUwMjYzNDIyOCwt
-MjAwOTc5MjI5MSwxNTIzNDcwMjksOTYxMDQxMDU5LDc0MDU5NT
-I2MCwxMzA4OTI4NDQwLDI5MTM5ODUxNiwtMTkwMDUyNDE5NSwx
-MzI4NzU5OTQ3LC0zMjY4MzY3MDMsLTU5MjQzMjc0Miw2MjI5Nz
-A1NDMsLTE0MTE5MjkxMTYsLTEzMjI0MTgzNTYsLTc4MjY2OTg0
-OF19
+eyJoaXN0b3J5IjpbMTg0NDEzMTc5LDYxOTMyNDQyLC04MjUxOT
+M3NzMsMTY1OTU5MzE4OSwxMTUxNjg5MzQ4LDY5MDc2Nzg4MCw1
+MDI2MzQyMjgsLTIwMDk3OTIyOTEsMTUyMzQ3MDI5LDk2MTA0MT
+A1OSw3NDA1OTUyNjAsMTMwODkyODQ0MCwyOTEzOTg1MTYsLTE5
+MDA1MjQxOTUsMTMyODc1OTk0NywtMzI2ODM2NzAzLC01OTI0Mz
+I3NDIsNjIyOTcwNTQzLC0xNDExOTI5MTE2LC0xMzIyNDE4MzU2
+XX0=
 -->
