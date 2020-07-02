@@ -203,12 +203,14 @@ Pour le moment je travaille sur un fichier présent dans le dossier export que j
 Création de deux fonctions différente, recupereDonneesFichier, et importDonneesFichier, l'import se fait en plusieurs étapes, l'utilisateur envoie son fichier via un formulaire avec deux options (headers présent dans le csv, et séparateurs), on récupère ensuite les données du fichier csv envoyé, et on créé un nouveau formulaire avec des select, ou l'utilisateur pourra choisir quelle colonne de son fichier va dans quel champ en base de données. Une fois qu'il a choisi toutes les colonnes, on importe les données en base de données, l'étape la plus compliquée est l'import, notamment à cause des liaisons, ou du type de données envoyées (date, integer, string).
 J'ai séparé la fonction importCsv en 3 fonctions finalement, j'ai créé une fonction intermédiaire affichageFormulaire entre recupereDonneesFichier et importDonneesFichier. Le code est plus clair et lisible comme ça.
 Pour pouvoir avancer plus et voir si le download du fichier utilisateur fonctionne bien, je dois voir avec nicolas pour actualiser le Js et rajouter de l'ajax qui permettra de submit les différents formulaires que je viens de créer.
+
+Jeudi:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODE4MTE5NDksLTE0ODk3NzIwODcsNj
-E5MzI0NDIsLTgyNTE5Mzc3MywxNjU5NTkzMTg5LDExNTE2ODkz
-NDgsNjkwNzY3ODgwLDUwMjYzNDIyOCwtMjAwOTc5MjI5MSwxNT
-IzNDcwMjksOTYxMDQxMDU5LDc0MDU5NTI2MCwxMzA4OTI4NDQw
-LDI5MTM5ODUxNiwtMTkwMDUyNDE5NSwxMzI4NzU5OTQ3LC0zMj
-Y4MzY3MDMsLTU5MjQzMjc0Miw2MjI5NzA1NDMsLTE0MTE5Mjkx
-MTZdfQ==
+eyJoaXN0b3J5IjpbMTEyNzUwNDExNiwtMTI4MTgxMTk0OSwtMT
+Q4OTc3MjA4Nyw2MTkzMjQ0MiwtODI1MTkzNzczLDE2NTk1OTMx
+ODksMTE1MTY4OTM0OCw2OTA3Njc4ODAsNTAyNjM0MjI4LC0yMD
+A5NzkyMjkxLDE1MjM0NzAyOSw5NjEwNDEwNTksNzQwNTk1MjYw
+LDEzMDg5Mjg0NDAsMjkxMzk4NTE2LC0xOTAwNTI0MTk1LDEzMj
+g3NTk5NDcsLTMyNjgzNjcwMywtNTkyNDMyNzQyLDYyMjk3MDU0
+M119
 -->
