@@ -204,13 +204,13 @@ Création de deux fonctions différente, recupereDonneesFichier, et importDonnee
 J'ai séparé la fonction importCsv en 3 fonctions finalement, j'ai créé une fonction intermédiaire affichageFormulaire entre recupereDonneesFichier et importDonneesFichier. Le code est plus clair et lisible comme ça.
 Pour pouvoir avancer plus et voir si le download du fichier utilisateur fonctionne bien, je dois voir avec nicolas pour actualiser le Js et rajouter de l'ajax qui permettra de submit les différents formulaires que je viens de créer.
 
-**Jeudi:**
+**Vendredi:**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODA3NDE2NCwtMTI4MTgxMTk0OSwtMT
-Q4OTc3MjA4Nyw2MTkzMjQ0MiwtODI1MTkzNzczLDE2NTk1OTMx
-ODksMTE1MTY4OTM0OCw2OTA3Njc4ODAsNTAyNjM0MjI4LC0yMD
-A5NzkyMjkxLDE1MjM0NzAyOSw5NjEwNDEwNTksNzQwNTk1MjYw
-LDEzMDg5Mjg0NDAsMjkxMzk4NTE2LC0xOTAwNTI0MTk1LDEzMj
-g3NTk5NDcsLTMyNjgzNjcwMywtNTkyNDMyNzQyLDYyMjk3MDU0
-M119
+eyJoaXN0b3J5IjpbLTE2MTU4MzA1MjAsMTkwODA3NDE2NCwtMT
+I4MTgxMTk0OSwtMTQ4OTc3MjA4Nyw2MTkzMjQ0MiwtODI1MTkz
+NzczLDE2NTk1OTMxODksMTE1MTY4OTM0OCw2OTA3Njc4ODAsNT
+AyNjM0MjI4LC0yMDA5NzkyMjkxLDE1MjM0NzAyOSw5NjEwNDEw
+NTksNzQwNTk1MjYwLDEzMDg5Mjg0NDAsMjkxMzk4NTE2LC0xOT
+AwNTI0MTk1LDEzMjg3NTk5NDcsLTMyNjgzNjcwMywtNTkyNDMy
+NzQyXX0=
 -->
